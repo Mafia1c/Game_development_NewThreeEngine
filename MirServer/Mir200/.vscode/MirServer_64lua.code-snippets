@@ -1,0 +1,3831 @@
+{
+	"所有行会在当晚同时攻城": {
+		"prefix": "addattacksabakall",
+		"body": [
+			"addattacksabakall()",
+		],
+		"description": "所有行会在当晚同时攻城"
+	},
+	"添加buff": {
+		"prefix": "addbuff",
+		"body": [
+			"addbuff(object,buffid,time,OverLap,objOwner,abil)",
+		],
+		"description": "添加buff"
+	},
+	"增加气泡": {
+		"prefix": "addbutshow",
+		"body": [
+			"addbutshow(actor,id,name,func)",
+		],
+		"description": "增加气泡"
+	},
+	"增加自定义按钮": {
+		"prefix": "addbutton",
+		"body": [
+			"addbutton(actor,windowid,buttonid,icon)",
+		],
+		"description": "增加自定义按钮"
+	},
+	"增加限次使用物品的次数": {
+		"prefix": "addfunitemdura",
+		"body": [
+			"addfunitemdura(actor,itemmakeid,num)",
+		],
+		"description": "增加限次使用物品的次数"
+	},
+	"添加队员": {
+		"prefix": "addgroupmember",
+		"body": [
+			"addgroupmember(actor,userId)",
+		],
+		"description": "添加队员"
+	},
+	"临时增加怪物爆出物品": {
+		"prefix": "additemtodroplist",
+		"body": [
+			"additemtodroplist(actor,mon,itemname)",
+		],
+		"description": "临时增加怪物爆出物品"
+	},
+	"增加动态地图连接": {
+		"prefix": "addmapgate",
+		"body": [
+			"addmapgate(actor)",
+		],
+		"description": "增加动态地图连接"
+	},
+	"创建镜像地图": {
+		"prefix": "addmirrormap",
+		"body": [
+			"addmirrormap(oldMap,NewMap,NewName,time,BackMap)",
+		],
+		"description": "创建镜像地图"
+	},
+	"增加宠物属性": {
+		"prefix": "addpetattlist",
+		"body": [
+			"addpetattlist(actor,idx,attrName,opt,attr,type)",
+		],
+		"description": "增加宠物属性"
+	},
+	"增加宠物攻击表现": {
+		"prefix": "addpetskill",
+		"body": [
+			"addpetskill(actor,idx,skillid)",
+		],
+		"description": "增加宠物攻击表现"
+	},
+	"添加技能": {
+		"prefix": "addskill",
+		"body": [
+			"addskill(actor,skillid,level)",
+		],
+		"description": "添加技能"
+	},
+	"把行会添加到攻城列表": {
+		"prefix": "addtocastlewarlist",
+		"body": [
+			"addtocastlewarlist(name,day)",
+		],
+		"description": "把行会添加到攻城列表"
+	},
+	"强制把行会添加到攻城列表": {
+		"prefix": "addtocastlewarlistex",
+		"body": [
+			"addtocastlewarlistex(name,day)",
+		],
+		"description": "强制把行会添加到攻城列表"
+	},
+	"本服通知触发跨服QF": {
+		"prefix": "bfbackcall",
+		"body": [
+			"bfbackcall()",
+		],
+		"description": "本服通知触发跨服QF"
+	},
+	"创建行会": {
+		"prefix": "buildguild",
+		"body": [
+			"buildguild(actor,name)",
+		],
+		"description": "创建行会"
+	},
+	"调用其他NPC的lua函数": {
+		"prefix": "callfunbynpc",
+		"body": [
+			"callfunbynpc(actor,npcidx,delaytime,func,sParam)",
+		],
+		"description": "调用其他NPC的lua函数"
+	},
+	"调用TXT脚本命令": {
+		"prefix": "callscript",
+		"body": [
+			"callscript(actor,filename,label)",
+		],
+		"description": "调用TXT脚本命令"
+	},
+	"调用传奇脚本命令": {
+		"prefix": "callscriptex",
+		"body": [
+			"callscriptex(actor,scriptname,...)",
+		],
+		"description": "调用传奇脚本命令"
+	},
+	"调用传奇脚本命令2": {
+		"prefix": "callcheckscriptex",
+		"body": [
+			"callcheckscriptex(actor)",
+		],
+		"description": "调用传奇脚本命令2"
+	},
+	"获取玩家沙巴克身份": {
+		"prefix": "castleidentity",
+		"body": [
+			"castleidentity(actor)",
+		],
+		"description": "获取玩家沙巴克身份"
+	},
+	"沙巴克基本信息": {
+		"prefix": "castleinfo",
+		"body": [
+			"castleinfo(nID)",
+		],
+		"description": "沙巴克基本信息"
+	},
+	"修改攻击模式": {
+		"prefix": "changeattackmode",
+		"body": [
+			"changeattackmode(actor,attackmode)",
+		],
+		"description": "修改攻击模式"
+	},
+	"绑定自定义装备属性": {
+		"prefix": "changecustomitemabil",
+		"body": [
+			"changecustomitemabil(actor,item,attrindex,bindindex,bindvalue,group)",
+		],
+		"description": "绑定自定义装备属性"
+	},
+	"增加和修改自定义属性分类名称": {
+		"prefix": "changecustomitemtext",
+		"body": [
+			"changecustomitemtext(actor,item,typename,group)",
+		],
+		"description": "增加和修改自定义属性分类名称"
+	},
+	"增加和修改分类名称颜色": {
+		"prefix": "changecustomitemtextcolor",
+		"body": [
+			"changecustomitemtextcolor(actor,item,color,group)",
+		],
+		"description": "增加和修改分类名称颜色"
+	},
+	"修改自定义属性值": {
+		"prefix": "changecustomitemvalue",
+		"body": [
+			"changecustomitemvalue(actor,item,attrindex,operate,value,group)",
+		],
+		"description": "修改自定义属性值"
+	},
+	"修改武器、衣服特效": {
+		"prefix": "changedresseffect",
+		"body": [
+			"changedresseffect(actor,where,EffId,selfSee)",
+		],
+		"description": "修改武器、衣服特效"
+	},
+	"设置人物经验值": {
+		"prefix": "changeexp",
+		"body": [
+			"changeexp(actor,opt,count,addexp)",
+		],
+		"description": "设置人物经验值"
+	},
+	"设置行会成员人数上限": {
+		"prefix": "changeguildmemberlimit",
+		"body": [
+			"changeguildmemberlimit(actor)",
+		],
+		"description": "设置行会成员人数上限"
+	},
+	"调整人物属性": {
+		"prefix": "changehumability",
+		"body": [
+			"changehumability(actor,id,value,time)",
+		],
+		"description": "调整人物属性"
+	},
+	"修改人物名称": {
+		"prefix": "changehumname",
+		"body": [
+			"changehumname(actor,name)",
+		],
+		"description": "修改人物名称"
+	},
+	"清除人物身上播放的特效": {
+		"prefix": "clearplayeffect",
+		"body": [
+			"clearplayeffect(actor,effectid)",
+		],
+		"description": "清除人物身上播放的特效"
+	},
+	"清空所有技能": {
+		"prefix": "clearskill",
+		"body": [
+			"clearskill(actor)",
+		],
+		"description": "清空所有技能"
+	},
+	"关闭当前的NPC对话框": {
+		"prefix": "close",
+		"body": [
+			"close(actor)",
+		],
+		"description": "关闭当前的NPC对话框"
+	},
+	"召唤拾取小精灵": {
+		"prefix": "createsprite",
+		"body": [
+			"createsprite(actor,monName)",
+		],
+		"description": "召唤拾取小精灵"
+	},
+	"删除英雄": {
+		"prefix": "delhero",
+		"body": [
+			"delhero(actor)",
+		],
+		"description": "删除英雄"
+	},
+	"删除Ini文件配置项": {
+		"prefix": "deliniitem",
+		"body": [
+			"deliniitem(actor)",
+		],
+		"description": "删除Ini文件配置项"
+	},
+	"删除Ini文件配置项(带Cache)": {
+		"prefix": "deliniitembycache",
+		"body": [
+			"deliniitembycache(actor)",
+		],
+		"description": "删除Ini文件配置项(带Cache)"
+	},
+	"删除Ini文件配置区": {
+		"prefix": "delinisection",
+		"body": [
+			"delinisection(actor)",
+		],
+		"description": "删除Ini文件配置区"
+	},
+	"删除Ini文件配置区 带Cache": {
+		"prefix": "delinisectionbycache",
+		"body": [
+			"delinisectionbycache(actor)",
+		],
+		"description": "删除Ini文件配置区 带Cache"
+	},
+	"通过物品唯一id拿走物品": {
+		"prefix": "delitembymakeindex",
+		"body": [
+			"delitembymakeindex(actor)",
+		],
+		"description": "通过物品唯一id拿走物品"
+	},
+	"删除地图特效": {
+		"prefix": "delmapeffect",
+		"body": [
+			"delmapeffect(Id)",
+		],
+		"description": "删除地图特效"
+	},
+	"删除动态地图连接": {
+		"prefix": "delmapgate",
+		"body": [
+			"delmapgate(actor,MapId)",
+		],
+		"description": "删除动态地图连接"
+	},
+	"删除镜像地图": {
+		"prefix": "delmirrormap",
+		"body": [
+			"delmirrormap(MapId)",
+		],
+		"description": "删除镜像地图"
+	},
+	"删除国家": {
+		"prefix": "delnation",
+		"body": [
+			"delnation(nIdx)",
+		],
+		"description": "删除国家"
+	},
+	"删除非本职业技能": {
+		"prefix": "delnojobskill",
+		"body": [
+			"delnojobskill(actor)",
+		],
+		"description": "删除非本职业技能"
+	},
+	"删除NPC": {
+		"prefix": "delnpc",
+		"body": [
+			"delnpc(name,map)",
+		],
+		"description": "删除NPC"
+	},
+	"删除NPC特效": {
+		"prefix": "delnpceffect",
+		"body": [
+			"delnpceffect(actor,NPCIndex)",
+		],
+		"description": "删除NPC特效"
+	},
+	"删除宠物": {
+		"prefix": "delpet",
+		"body": [
+			"delpet(actor,idx)",
+		],
+		"description": "删除宠物"
+	},
+	"删除技能": {
+		"prefix": "delskill",
+		"body": [
+			"delskill(actor,skillid)",
+		],
+		"description": "删除技能"
+	},
+	"根据唯一ID删除仓库物品": {
+		"prefix": "delstorageitem",
+		"body": [
+			"delstorageitem(actor,itemmakeid)",
+		],
+		"description": "根据唯一ID删除仓库物品"
+	},
+	"根据idx删除仓库物品": {
+		"prefix": "delstorageitembyidx",
+		"body": [
+			"delstorageitembyidx(actor,itemidx)",
+		],
+		"description": "根据idx删除仓库物品"
+	},
+	"删除称号": {
+		"prefix": "deprivetitle",
+		"body": [
+			"deprivetitle(actor,name)",
+		],
+		"description": "删除称号"
+	},
+	"使用脚本命令解毒(红绿毒)": {
+		"prefix": "detoxifcation",
+		"body": [
+			"detoxifcation(actor,opt)",
+		],
+		"description": "使用脚本命令解毒(红绿毒)"
+	},
+	"下马": {
+		"prefix": "dismounthorse",
+		"body": [
+			"dismounthorse(actor)",
+		],
+		"description": "下马"
+	},
+	"停止摆摊": {
+		"prefix": "forbidmyshop",
+		"body": [
+			"forbidmyshop(actor)",
+		],
+		"description": "停止摆摊"
+	},
+	"获取角色所有buff": {
+		"prefix": "getallbuffid",
+		"body": [
+			"getallbuffid(actor)",
+		],
+		"description": "获取角色所有buff"
+	},
+	"获取所有行会对象": {
+		"prefix": "getallguild",
+		"body": [
+			"getallguild()",
+		],
+		"description": "获取所有行会对象"
+	},
+	"获取当前攻击模式": {
+		"prefix": "getattackmode",
+		"body": [
+			"getattackmode(actor)",
+		],
+		"description": "获取当前攻击模式"
+	},
+	"获取背包剩余空格数": {
+		"prefix": "getbagblank",
+		"body": [
+			"getbagblank(actor)",
+		],
+		"description": "获取背包剩余空格数"
+	},
+	"获取背包物品数量": {
+		"prefix": "getbagitemcount",
+		"body": [
+			"getbagitemcount(actor, itemname, model)"
+		],
+		"description": "获取背包物品数量 - actor: 玩家对象 - itemname: 物品名称 - model: 物品绑定状态[0=忽略;1=非绑定;2=绑定]"
+	},
+	"获取人物|怪物 相关信息": {
+		"prefix": "getbaseinfo",
+		"body": [
+			"getbaseinfo(object,nID,param3)",
+		],
+		"description": "获取人物|怪物 相关信息"
+	},
+	"获取人物通用货币数量(多货币计算)": {
+		"prefix": "getbindmoney",
+		"body": [
+			"getbindmoney(actor)",
+		],
+		"description": "获取人物通用货币数量(多货币计算)"
+	},
+	"获取buff信息": {
+		"prefix": "getbuffinfo",
+		"body": [
+			"getbuffinfo(actor,buffid)",
+		],
+		"description": "获取buff信息"
+	},
+	"获取常量": {
+		"prefix": "getconst",
+		"body": [
+			"getconst(actor,varname)",
+		],
+		"description": "获取常量"
+	},
+	"获取标记值": {
+		"prefix": "getcurrent",
+		"body": [
+			"getcurrent(object,index)",
+		],
+		"description": "获取标记值"
+	},
+	"根据物品获取Json": {
+		"prefix": "getitemjson",
+		"body": [
+			"getitemjson(item)",
+		],
+		"description": "根据物品获取Json"
+	},
+	"检测装备名字的颜色": {
+		"prefix": "getitemnamecolor",
+		"body": [
+			"getitemnamecolor(item)",
+		],
+		"description": "检测装备名字的颜色"
+	},
+	"获取当前唯一ID物品的星星数量": {
+		"prefix": "getitemstars",
+		"body": [
+			"getitemstars(actor,itemmakeid)",
+		],
+		"description": "获取当前唯一ID物品的星星数量"
+	},
+	"获取指定地图玩家数量": {
+		"prefix": "getplaycountinmap",
+		"body": [
+			"getplaycountinmap(actor,MapId,isAllgain)",
+		],
+		"description": "获取指定地图玩家数量"
+	},
+	"获取玩家变量": {
+		"prefix": "getplaydef",
+		"body": [
+			"getplaydef(actor,varName)",
+		],
+		"description": "获取玩家变量"
+	},
+	"根据玩家唯一ID获取玩家对象": {
+		"prefix": "getplayerbyid",
+		"body": [
+			"getplayerbyid(makeindex)",
+		],
+		"description": "根据玩家唯一ID获取玩家对象"
+	},
+	"根据玩家名获取玩家对象": {
+		"prefix": "getplayerbyname",
+		"body": [
+			"getplayerbyname(name)",
+		],
+		"description": "根据玩家名获取玩家对象"
+	},
+	"获取所有在线玩家列表": {
+		"prefix": "getplayerlst",
+		"body": [
+			"getplayerlst()",
+		],
+		"description": "获取所有在线玩家列表"
+	},
+	"获取行会成员在行会中的职位": {
+		"prefix": "getplayguildlevel",
+		"body": [
+			"getplayguildlevel(actor)",
+		],
+		"description": "获取行会成员在行会中的职位"
+	},
+	"获取自定义变量": {
+		"prefix": "getplayvar",
+		"body": [
+			"getplayvar(actor,varName)",
+		],
+		"description": "获取自定义变量"
+	},
+	"获取仓库剩余格子数": {
+		"prefix": "getsblank",
+		"body": [
+			"getsblank(actor)",
+		],
+		"description": "获取仓库剩余格子数"
+	},
+	"获取技能初始冷却时间": {
+		"prefix": "getskillcscd",
+		"body": [
+			"getskillcscd(skillname)",
+		],
+		"description": "获取技能初始冷却时间"
+	},
+	"获取当前技能冷却时间": {
+		"prefix": "getskilldqcd",
+		"body": [
+			"getskilldqcd(actor,skillname)",
+		],
+		"description": "获取当前技能冷却时间"
+	},
+	"根据技能名字获取技能id": {
+		"prefix": "getskillindex",
+		"body": [
+			"getskillindex(skillname)",
+		],
+		"description": "根据技能名字获取技能id"
+	},
+	"获取技能信息": {
+		"prefix": "getskillinfo",
+		"body": [
+			"getskillinfo(actor,skillid,type)",
+		],
+		"description": "获取技能信息"
+	},
+	"获取技能等级": {
+		"prefix": "getskilllevel",
+		"body": [
+			"getskilllevel(actor,skillid)",
+		],
+		"description": "获取技能等级"
+	},
+	"获取技能强化等级": {
+		"prefix": "getskilllevelup",
+		"body": [
+			"getskilllevelup(actor,skillid)",
+		],
+		"description": "获取技能强化等级"
+	},
+	"根据技能id获取技能名字": {
+		"prefix": "getskillname",
+		"body": [
+			"getskillname(actor,skillname)",
+		],
+		"description": "根据技能id获取技能名字"
+	},
+	"获取技能熟练度": {
+		"prefix": "getskilltrain",
+		"body": [
+			"getskilltrain(actor,skillid)",
+		],
+		"description": "获取技能熟练度"
+	},
+	"根据宝宝索引获取角色宝宝对象": {
+		"prefix": "getslavebyindex",
+		"body": [
+			"getslavebyindex(actor,nIndex)",
+		],
+		"description": "根据宝宝索引获取角色宝宝对象"
+	},
+	"获取装备钻石镶嵌情况": {
+		"prefix": "getsocketableitem",
+		"body": [
+			"getsocketableitem(actor,item)",
+		],
+		"description": "获取装备钻石镶嵌情况"
+	},
+	"获取玩家仓库最大格子数": {
+		"prefix": "getssize",
+		"body": [
+			"getssize(actor)",
+		],
+		"description": "获取玩家仓库最大格子数"
+	},
+	"获取buff模板信息": {
+		"prefix": "getstdbuffinfo",
+		"body": [
+			"getstdbuffinfo(buffinfo,id)",
+		],
+		"description": "获取buff模板信息"
+	},
+	"获取物品基础属性": {
+		"prefix": "getstditematt",
+		"body": [
+			"getstditematt(itemid,id)",
+		],
+		"description": "获取物品基础属性"
+	},
+	"获取物品基础信息": {
+		"prefix": "getstditeminfo",
+		"body": [
+			"getstditeminfo(item,id)",
+		],
+		"description": "获取物品基础信息"
+	},
+	"获取仓库所有物品列表": {
+		"prefix": "getstorageitems",
+		"body": [
+			"getstorageitems(actor)",
+		],
+		"description": "获取仓库所有物品列表"
+	},
+	"获取人物伤害吸收": {
+		"prefix": "getsuckdamage",
+		"body": [
+			"getsuckdamage(actor)",
+		],
+		"description": "获取人物伤害吸收"
+	},
+	"获取全局变量": {
+		"prefix": "getsysvar",
+		"body": [
+			"getsysvar(varName)",
+		],
+		"description": "获取全局变量"
+	},
+
+	"获取全局自定义变量": {
+		"prefix": "getsysvarex",
+		"body": [
+			"getsysvarex(varName)",
+		],
+		"description": "获取全局自定义变量"
+	},
+	"获取服务器上64位时间戳": {
+		"prefix": "gettcount64",
+		"body": [
+			"gettcount64()",
+		],
+		"description": "获取服务器上64位时间戳"
+	},
+	"获取物品来源": {
+		"prefix": "getthrowitemly",
+		"body": [
+			"getthrowitemly(actor,item)",
+		],
+		"description": "获取物品来源"
+	},
+	"获取角色所有称号": {
+		"prefix": "gettitlelist",
+		"body": [
+			"gettitlelist(actor)",
+		],
+		"description": "获取角色所有称号"
+	},
+	"获取人物永久属性": {
+		"prefix": "getusebonuspoint",
+		"body": [
+			"getusebonuspoint(actor,nIndex)",
+		],
+		"description": "获取人物永久属性"
+	},
+	"给物品": {
+		"prefix": "giveitem",
+		"body": [
+			"giveitem(actor,itemname,num,bind)",
+		],
+		"description": "给物品"
+	},
+	"根据json字符串给物品": {
+		"prefix": "giveitembyjson",
+		"body": [
+			"giveitembyjson(actor,json)",
+		],
+		"description": "根据json字符串给物品"
+	},
+	"给物品,并直接穿戴": {
+		"prefix": "giveonitem",
+		"body": [
+			"giveonitem(actor,where,itemname,num,bind)",
+		],
+		"description": "给物品,并直接穿戴"
+	},
+	"获取全局信息": {
+		"prefix": "globalinfo",
+		"body": [
+			"globalinfo(id)",
+		],
+		"description": "获取全局信息"
+	},
+	"执行GM命令": {
+		"prefix": "gmexecute",
+		"body": [
+			"gmexecute(actor,GM,...)",
+		],
+		"description": "执行GM命令"
+	},
+	"回到最近经过的城市安全区": {
+		"prefix": "gohome",
+		"body": [
+			"gohome(actor)",
+		],
+		"description": "回到最近经过的城市安全区"
+	},
+	"调用触发": {
+		"prefix": "gotolabel",
+		"body": [
+			"gotolabel(actor,type,label,range)",
+		],
+		"description": "调用触发"
+	},
+	"导航玩家到指定位置": {
+		"prefix": "gotonow",
+		"body": [
+			"gotonow(actor, x, y)"
+		],
+		"description": "导航玩家到指定位置"
+	},
+	
+	"检测地图逻辑格": {
+		"prefix": "gridattr",
+		"body": [
+			"gridattr(mapid, x, y, type)"
+		],
+		"description": "检测地图逻辑格"
+	},
+	
+	"获取全局信息": {
+		"prefix": "grobalinfo",
+		"body": [
+			"grobalinfo(id)"
+		],
+		"description": "获取全局信息"
+	},
+	
+	"编组地图传送": {
+		"prefix": "groupmapmove",
+		"body": [
+			"groupmapmove(actor, mapid, x, y, level, value, obj)"
+		],
+		"description": "编组地图传送"
+	},
+	
+	"发送自定义颜色的文字信息": {
+		"prefix": "guildnoticemsg",
+		"body": [
+			"guildnoticemsg(actor, FColor, BColor, Msg, flag)"
+		],
+		"description": "发送自定义颜色的文字信息"
+	},
+	
+	"是否有buff": {
+		"prefix": "hasbuff",
+		"body": [
+			"hasbuff(actor, buffid)"
+		],
+		"description": "是否有buff"
+	},
+	
+	"是否有英雄": {
+		"prefix": "hashero",
+		"body": [
+			"hashero(actor)"
+		],
+		"description": "是否有英雄"
+	},
+	
+	"刷新血量/蓝量": {
+		"prefix": "healthspellchanged",
+		"body": [
+			"healthspellchanged(object)"
+		],
+		"description": "刷新血量/蓝量"
+	},
+	
+	"数据消息上报": {
+		"prefix": "httppost",
+		"body": [
+			"httppost(actor)"
+		],
+		"description": "数据消息上报"
+	},
+	
+	"修改人物当前血量": {
+		"prefix": "humanhp",
+		"body": [
+			"humanhp(actor, operate, nvalue, effid)"
+		],
+		"description": "修改人物当前血量"
+	},
+	
+	"修改人物当前MP": {
+		"prefix": "humanmp",
+		"body": [
+			"humanmp(actor, operate, nvalue)"
+		],
+		"description": "修改人物当前MP"
+	},
+	"取自定义数字变量名位置": {
+		"prefix": "humvarrank",
+		"body": [
+			"humvarrank(actor,varName,playflag,sortflag)",
+		],
+		"description": "取自定义数字变量名位置"
+	},
+	"引用文件": {
+		"prefix": "include",
+		"body": [
+			"include(path)",
+		],
+		"description": "引用文件"
+	},
+	"初始化行会自定义变量": {
+		"prefix": "iniguildvar",
+		"body": [
+			"iniguildvar(guil,varType,varName)",
+		],
+		"description": "初始化行会自定义变量"
+	},
+	"初始化个人自定义变量": {
+		"prefix": "iniplayvar",
+		"body": [
+			"iniplayvar(actor,varType,varRage,varName)",
+		],
+		"description": "初始化个人自定义变量"
+	},
+	"初始化全局自定义变量": {
+		"prefix": "inisysvar",
+		"body": [
+			"inisysvar(type,varName)",
+		],
+		"description": "初始化全局自定义变量"
+	},
+	"判断地图坐标是否为空": {
+		"prefix": "isemptyinmap",
+		"body": [
+			"isemptyinmap(mapname,nX,nY)",
+		],
+		"description": "判断地图坐标是否为空"
+	},
+	"判断英雄是否为唤出状态": {
+		"prefix": "isherorecall",
+		"body": [
+			"isherorecall(actor)",
+		],
+		"description": "判断英雄是否为唤出状态"
+	},
+	"监测国家战争状态": {
+		"prefix": "isnationswar",
+		"body": [
+			"isnationswar(actor)",
+		],
+		"description": "监测国家战争状态"
+	},
+	"对象是否存在": {
+		"prefix": "isnotnull",
+		"body": [
+			"isnotnull(actor)",
+		],
+		"description": "对象是否存在"
+	},
+	"判断对象是否可被攻击": {
+		"prefix": "ispropertarget",
+		"body": [
+			"ispropertarget(Hiter,Target)",
+		],
+		"description": "判断对象是否可被攻击"
+	},
+	"加入/退出国家": {
+		"prefix": "joinnational",
+		"body": [
+			"joinnational(actor,nIdx,jobIdx)",
+		],
+		"description": "加入/退出国家"
+	},
+	"字符串转换成表格": {
+		"prefix": "json2tbl",
+		"body": [
+			"json2tbl(str)",
+		],
+		"description": "字符串转换成表格"
+	},
+	"跨服通知触发本服QF": {
+		"prefix": "kfbackcall",
+		"body": [
+			"kfbackcall(id,userid,parama,paramb)",
+		],
+		"description": "跨服通知触发本服QF"
+	},
+	"人物强制掉线": {
+		"prefix": "kick",
+		"body": [
+			"kick(actor)"
+		],
+		"description": "人物强制掉线"
+	},
+	"立即杀死角色": {
+		"prefix": "kill",
+		"body": [
+			"kill(actor,strKiller)"
+		],
+		"description": "立即杀死角色"
+	},
+	"脚本设置防秒杀功能": {
+		"prefix": "killedprotect",
+		"body": [
+			"killedprotect(actor)"
+		],
+		"description": "脚本设置防秒杀功能"
+	},
+	"在指定位置优先打指定打怪": {
+		"prefix": "killmobappoint",
+		"body": [
+			"killmobappoint(actor,map,X,Y,MonName)"
+		],
+		"description": "在指定位置优先打指定打怪"
+	},
+	"杀怪2": {
+		"prefix": "killmonbyobj",
+		"body": [
+			"killmonbyobj(actor,mon,drop,trigger,showdie)"
+		],
+		"description": "杀怪2"
+	},
+	"杀怪1": {
+		"prefix": "killmonsters",
+		"body": [
+			"killmonsters(actor,mapid,monname,count,drop)"
+		],
+		"description": "杀怪1"
+	},
+	"所有跨服玩家回本服": {
+		"prefix": "kuafuusergohome",
+		"body": [
+			"kuafuusergohome()"
+		],
+		"description": "所有跨服玩家回本服"
+	},
+	"关联装备物品": {
+		"prefix": "linkbodyitem",
+		"body": [
+			"linkbodyitem(actor,where)"
+		],
+		"description": "关联装备物品"
+	},
+	"关联正在操作的物品": {
+		"prefix": "linkpickupitem",
+		"body": [
+			"linkpickupitem()"
+		],
+		"description": "关联正在操作的物品"
+	},
+	"改变 人/怪物 状态": {
+		"prefix": "makeposion",
+		"body": [
+			"makeposion(object,type,time,value)"
+		],
+		"description": "改变 人/怪物 状态"
+	},
+	"跳转地图(随机坐标)": {
+		"prefix": "map",
+		"body": [
+			"map(actor,mapname)"
+		],
+		"description": "跳转地图(随机坐标)"
+	},
+	"添加地图特效": {
+		"prefix": "mapeffect",
+		"body": [
+			"mapeffect(Id,MapId,X,Y,effId,time,mode)"
+		],
+		"description": "添加地图特效"
+	},
+	"设置地图杀怪经验倍数": {
+		"prefix": "mapkillmonexprate",
+		"body": [
+			"mapkillmonexprate(actor,MapId,much)"
+		],
+		"description": "设置地图杀怪经验倍数"
+	},
+	"飞地图(指定坐标)": {
+		"prefix": "mapmove",
+		"body": [
+			"mapmove(actor,mapname,nX,nY,nRange)"
+		],
+		"description": "飞地图(指定坐标)"
+	},
+	"MD5加密": {
+		"prefix": "md5str",
+		"body": [
+			"md5str(str)",
+		],
+		"description": "MD5加密"
+	},
+	"弹出窗口消息": {
+		"prefix": "messagebox",
+		"body": [
+			"messagebox(actor,info,flag1,flag2)",
+		],
+		"description": "弹出窗口消息"
+	},
+	"客户端复制": {
+		"prefix": "mircopy",
+		"body": [
+			"mircopy(actor,str)",
+		],
+		"description": "客户端复制"
+	},
+	"获取/设置 镜像地图剩余时间": {
+		"prefix": "mirrormaptime",
+		"body": [
+			"mirrormaptime(actor)",
+		],
+		"description": "获取/设置 镜像地图剩余时间"
+	},
+	"播放光环效果": {
+		"prefix": "mobfireburn",
+		"body": [
+			"mobfireburn(actor,mapid,x,y,type,time,behind,selfshow)",
+		],
+		"description": "播放光环效果"
+	},
+	"杀怪物品再爆": {
+		"prefix": "monitems",
+		"body": [
+			"monitems(actor,count)",
+		],
+		"description": "杀怪物品再爆"
+	},
+	"把某个地图中的玩家全部移动到另外一个地图": {
+		"prefix": "movemapplay",
+		"body": [
+			"movemapplay(actor,aMapId,bMapId,x,y)",
+		],
+		"description": "把某个地图中的玩家全部移动到另外一个地图"
+	},
+
+	"新手界面引导功能": {
+		"prefix": "navigation",
+		"body": [
+			"navigation(actor,NPCIdx,BtnIdx,sMsg)",
+		],
+		"description": "新手界面引导功能"
+	},
+	"刷新进行中任务状态": {
+		"prefix": "newchangetask",
+		"body": [
+			"newchangetask(actor,nId,...)",
+		],
+		"description": "刷新进行中任务状态"
+	},
+	"完成任务": {
+		"prefix": "newcompletetask",
+		"body": [
+			"newcompletetask(actor,nId)",
+		],
+		"description": "完成任务"
+	},
+	"删除任务": {
+		"prefix": "newdeletetask",
+		"body": [
+			"newdeletetask(actor,nId)",
+		],
+		"description": "删除任务"
+	},
+	"读取表里面的第几行第几列内容": {
+		"prefix": "newdqcsv",
+		"body": [
+			"newdqcsv(filename,row,col)",
+		],
+		"description": "读取表里面的第几行第几列内容"
+	},
+	"新建任务": {
+		"prefix": "newpicktask",
+		"body": [
+			"newpicktask(actor,nId,...)",
+		],
+		"description": "新建任务"
+	},
+	"加载csv表格内容": {
+		"prefix": "newreadcsv",
+		"body": [
+			"newreadcsv(filename)",
+		],
+		"description": "加载csv表格内容"
+	},
+	"是否满足指定条件购买": {
+		"prefix": "notallowbuy",
+		"body": [
+			"notallowbuy(actor,canbuy)",
+		],
+		"description": "是否满足指定条件购买"
+	},
+	"是否满足指定条件显示": {
+		"prefix": "notallowshow",
+		"body": [
+			"notallowshow(actor,canshow)",
+		],
+		"description": "是否满足指定条件显示"
+	},
+	"关闭指定装备对比提示": {
+		"prefix": "nothintitem",
+		"body": [
+			"nothintitem(actor,order,str)",
+		],
+		"description": "关闭指定装备对比提示"
+	},
+	"离线挂机": {
+		"prefix": "offlineplay",
+		"body": [
+			"offlineplay(actor,time)",
+		],
+		"description": "离线挂机"
+	},
+	"调用游戏面板": {
+		"prefix": "openhyperlink",
+		"body": [
+			"openhyperlink(actor,nId,nState)",
+		],
+		"description": "调用游戏面板"
+	},
+	"打开NPC大窗口": {
+		"prefix": "openmerchantbigdlg",
+		"body": [
+			"openmerchantbigdlg(path,pos,x,y,height,width,bool,closeX,closeY,isMove)",
+		],
+		"description": "打开NPC大窗口"
+	},
+	"打开指定NPC面板": {
+		"prefix": "opennpcshow",
+		"body": [
+			"opennpcshow(actor,NPCIndex,nRange)",
+		],
+		"description": "打开指定NPC面板"
+	},
+	"移动到指定NPC附近": {
+		"prefix": "opennpcshowex",
+		"body": [
+			"opennpcshowex(actor,NPCIndex,nRange,nRange2)",
+		],
+		"description": "移动到指定NPC附近"
+	},
+	"打开仓库面板": {
+		"prefix": "openstorage",
+		"body": [
+			"openstorage(actor)",
+		],
+		"description": "打开仓库面板"
+	},
+	"打开OK框": {
+		"prefix": "openupgradedlg",
+		"body": [
+			"openupgradedlg(actor,title)",
+		],
+		"description": "打开OK框"
+	},
+	"游戏中打开网站": {
+		"prefix": "openwebsite",
+		"body": [
+			"openwebsite(actor,url)",
+		],
+		"description": "游戏中打开网站"
+	},
+	"查看自己面板": {
+		"prefix": "openwindows",
+		"body": [
+			"openwindows(actor,winID)",
+		],
+		"description": "查看自己面板"
+	},
+	"解析文本": {
+		"prefix": "parsetext",
+		"body": [
+			"parsetext(text,actor)",
+		],
+		"description": "解析文本"
+	},
+	"置换宠物属性": {
+		"prefix": "petmon",
+		"body": [
+			"petmon(actor,idx,monidx)",
+		],
+		"description": "置换宠物属性"
+	},
+	"获取宠物状态": {
+		"prefix": "petstate",
+		"body": [
+			"petstate(actor,idx)",
+		],
+		"description": "获取宠物状态"
+	},
+	"宠物脱装备": {
+		"prefix": "pettakeoff",
+		"body": [
+			"pettakeoff(actor,idx,item)",
+		],
+		"description": "宠物脱装备"
+	},
+	"宠物穿装备": {
+		"prefix": "pettakeon",
+		"body": [
+			"pettakeon(actor,idx,item)",
+		],
+		"description": "宠物穿装备"
+	},
+	"拾取模式": {
+		"prefix": "pickupitems",
+		"body": [
+			"pickupitems(actor,mode,Range,interval)",
+		],
+		"description": "拾取模式"
+	},
+	"在人物身上播放特效": {
+		"prefix": "playeffect",
+		"body": [
+			"playeffect(actor,effectid,offsetX,offsetY,times,behind,selfshow)",
+		],
+		"description": "在人物身上播放特效"
+	},
+	"播放音乐声音": {
+		"prefix": "playsound",
+		"body": [
+			"playsound(actor,index,times,flag)",
+		],
+		"description": "播放音乐声音"
+	},
+	"设置人物攻击威力": {
+		"prefix": "powerrate",
+		"body": [
+			"powerrate(actor,rate,time)",
+		],
+		"description": "设置人物攻击威力"
+	},
+	"拉取客户端充值接口": {
+		"prefix": "pullpay",
+		"body": [
+			"pullpay(actor,money,type,flagid)",
+		],
+		"description": "拉取客户端充值接口"
+	},
+	"查询人物名称是否存在": {
+		"prefix": "queryhumnameexist",
+		"body": [
+			"queryhumnameexist(actor,name)",
+		],
+		"description": "查询人物名称是否存在"
+	},
+	"查询人物货币": {
+		"prefix": "querymoney",
+		"body": [
+			"querymoney(actor,id)",
+		],
+		"description": "查询人物货币"
+	},
+	"随机杀死地图中的怪物": {
+		"prefix": "randomkillmon",
+		"body": [
+			"randomkillmon(mapid,name,num,drop)",
+		],
+		"description": "随机杀死地图中的怪物"
+	},
+	"增加附加伤害效果": {
+		"prefix": "rangeharm",
+		"body": [
+			"rangeharm(actor,targetX,targetY,range,power,addtype,addvalue,checkstate,targettype,effectid)",
+		],
+		"description": "增加附加伤害效果"
+	},
+	"读取Ini文件中的字段值": {
+		"prefix": "readini",
+		"body": [
+			"readini(actor,section,item)",
+		],
+		"description": "读取Ini文件中的字段值"
+	},
+	"读取Ini文件中的字段值 带Cache": {
+		"prefix": "readinibycache",
+		"body": [
+			"readinibycache(actor,section,item)",
+		],
+		"description": "读取Ini文件中的字段值 带Cache"
+	},
+	"复活": {
+		"prefix": "realive",
+		"body": [
+			"realive(actor)",
+		],
+		"description": "复活"
+	},
+	"返回复活的宠物对象": {
+		"prefix": "realivepet",
+		"body": [
+			"realivepet(actor,idx,nHp,type)",
+		],
+		"description": "返回复活的宠物对象"
+	},
+	"刷新人物属性": {
+		"prefix": "recalcabilitys",
+		"body": [
+			"recalcabilitys(actor)",
+		],
+		"description": "刷新人物属性"
+	},
+	"召唤英雄": {
+		"prefix": "recallhero",
+		"body": [
+			"recallhero(actor)",
+		],
+		"description": "召唤英雄"
+	},
+	"召唤宝宝": {
+		"prefix": "recallmob",
+		"body": [
+			"recallmob(actor,monName,level,time,param1,param2,param3)",
+		],
+		"description": "召唤宝宝"
+	},
+	"返回召唤的宠物对象": {
+		"prefix": "recallpet",
+		"body": [
+			"recallpet(actor,idx)",
+		],
+		"description": "返回召唤的宠物对象"
+	},
+	"返回OK框物品到背包": {
+		"prefix": "reclaimitem",
+		"body": [
+			"reclaimitem(actor)",
+		],
+		"description": "返回OK框物品到背包"
+	},
+	"整理背包里的物品": {
+		"prefix": "refreshbag",
+		"body": [
+			"refreshbag(actor)",
+		],
+		"description": "整理背包里的物品"
+	},
+	"刷新物品信息到前端": {
+		"prefix": "refreshitem",
+		"body": [
+			"refreshitem(actor,item)",
+		],
+		"description": "刷新物品信息到前端"
+	},
+	"给NPC注册Lua消息": {
+		"prefix": "regnpcmsg",
+		"body": [
+			"regnpcmsg(msgId,NPCIndex)",
+		],
+		"description": "给NPC注册Lua消息"
+	},
+	"用脚本命令释放技能": {
+		"prefix": "releasemagic",
+		"body": [
+			"releasemagic(actor,skillid,type,level,target,flag)",
+		],
+		"description": "用脚本命令释放技能"
+	},
+	"回收": {
+		"prefix": "releasesprite",
+		"body": [
+			"releasesprite(actor)",
+		],
+		"description": "回收"
+	},
+	"打印消息到控制台": {
+		"prefix": "release_print",
+		"body": [
+			"release_print(...)",
+		],
+		"description": "打印消息到控制台"
+	},
+	"人物转生控制": {
+		"prefix": "renewlevel",
+		"body": [
+			"renewlevel(actor,rlevel,level,num)",
+		],
+		"description": "人物转生控制"
+	},
+	"修复所有装备": {
+		"prefix": "repairall",
+		"body": [
+			"repairall(actor)",
+		],
+		"description": "修复所有装备"
+	},
+	"引用文件": {
+		"prefix": "require",
+		"body": [
+			"require(path)",
+		],
+		"description": "引用文件"
+	},
+	"收回宠物": {
+		"prefix": "retractpettoitem",
+		"body": [
+			"retractpettoitem(actor)",
+		],
+		"description": "收回宠物"
+	},
+	"上马": {
+		"prefix": "ridehorse",
+		"body": [
+			"ridehorse(actor,HorseAppr,HorseEff,HorseFature,Type)",
+		],
+		"description": "上马"
+	},
+	"NPC界面文本发送": {
+		"prefix": "say",
+		"body": [
+			"say(actor,msg)",
+		],
+		"description": "NPC界面文本发送"
+	},
+	"屏幕震动": {
+		"prefix": "scenevibration",
+		"body": [
+			"scenevibration(actor,type,level,num,mapid)",
+		],
+		"description": "屏幕震动"
+	},
+	"播放屏幕特效": {
+		"prefix": "screffects",
+		"body": [
+			"screffects(actor,id,effectid,X,Y,speed,times,type)",
+		],
+		"description": "播放屏幕特效"
+	},
+	"遍历背包勾选物品": {
+		"prefix": "selectbagitems",
+		"body": [
+			"selectbagitems(actor,makeindex)",
+		],
+		"description": "遍历背包勾选物品"
+	},
+	"人物飘血飘字特效": {
+		"prefix": "sendattackeff",
+		"body": [
+			"sendattackeff(target,type,damage,hitter)",
+		],
+		"description": "人物飘血飘字特效"
+	},
+	"发送屏幕中间大字体信息": {
+		"prefix": "sendcentermsg",
+		"body": [
+			"sendcentermsg(actor,FColor,BColor,Msg,flag,time,func)",
+		],
+		"description": "发送屏幕中间大字体信息"
+	},
+	"屏幕任意坐标发送公告信息": {
+		"prefix": "sendcustommsg",
+		"body": [
+			"sendcustommsg(actor,type,msg,FColor,BColor,X,Y)",
+		],
+		"description": "屏幕任意坐标发送公告信息"
+	},
+	"显示倒计时信息提示": {
+		"prefix": "senddelaymsg",
+		"body": [
+			"senddelaymsg(actor,msg,time,FColor,mapdelete,func,Y)",
+		],
+		"description": "显示倒计时信息提示"
+	},
+	"发送消息": {
+		"prefix": "sendluamsg",
+		"body": [
+			"sendluamsg(actor,msgid,param1,param2,param3,sMsg)",
+		],
+		"description": "发送消息"
+	},
+	"发送邮件": {
+		"prefix": "sendmail",
+		"body": [
+			"sendmail(userid,id,title,memo,rewards)",
+		],
+		"description": "发送邮件"
+	},
+	"发送屏幕滚动信息": {
+		"prefix": "sendmovemsg",
+		"body": [
+			"sendmovemsg(actor,type,FColor,BColor,Y,scroll,msg)",
+		],
+		"description": "发送屏幕滚动信息"
+	},
+	"发送聊天框消息": {
+		"prefix": "sendmsg",
+		"body": [
+			"sendmsg(actor,type,msg)",
+		],
+		"description": "发送聊天框消息"
+	},
+	"主屏幕弹出公告": {
+		"prefix": "sendmsgnew",
+		"body": [
+			"sendmsgnew(actor,FColor,BColor,msg,type,time)",
+		],
+		"description": "主屏幕弹出公告"
+	},
+	"发送视野内广播消息": {
+		"prefix": "sendrefluamsg",
+		"body": [
+			"sendrefluamsg(actor,msgid,param1,param2,param3,sMsg)",
+		],
+		"description": "发送视野内广播消息"
+	},
+	"发送聊天框固顶信息": {
+		"prefix": "sendtopchatboardmsg",
+		"body": [
+			"sendtopchatboardmsg(actor,type,FColor,BColor,time,msg,showflag)",
+		],
+		"description": "发送聊天框固顶信息"
+	},
+	"设定人物攻击飘血飘字类型": {
+		"prefix": "setattackefftype",
+		"body": [
+			"setattackefftype(actor,type)",
+		],
+		"description": "设定人物攻击飘血飘字类型"
+	},
+	"强制修改攻击模式": {
+		"prefix": "setattackmode",
+		"body": [
+			"setattackmode(actor,mode,time)",
+		],
+		"description": "强制修改攻击模式"
+	},
+	"在线泡点经验": {
+		"prefix": "setautogetexp",
+		"body": [
+			"setautogetexp(actor,evetime,experience,isSafe,mapid,opt,alltime,level)",
+		],
+		"description": "在线泡点经验"
+	},
+	"设置人物背包格子数": {
+		"prefix": "setbagcount",
+		"body": [
+			"setbagcount(actor,count)",
+		],
+		"description": "设置人物背包格子数"
+	},
+	"设置人物/怪物相关信息": {
+		"prefix": "setbaseinfo",
+		"body": [
+			"setbaseinfo(actor,nID,value)",
+		],
+		"description": "设置人物/怪物相关信息"
+	},
+	"人物变色": {
+		"prefix": "setbodycolor",
+		"body": [
+			"setbodycolor(actor,color,time)",
+		],
+		"description": "人物变色"
+	},
+	"设置聊天前缀": {
+		"prefix": "setchatprefix",
+		"body": [
+			"setchatprefix(actor,Prefix,color)",
+		],
+		"description": "设置聊天前缀"
+	},
+	"设置标记值": {
+		"prefix": "setcurrent",
+		"body": [
+			"setcurrent(object,index,value)",
+		],
+		"description": "设置标记值"
+	},
+	"设置自定义进度条参数": {
+		"prefix": "setcustomitemprogressbar",
+		"body": [
+			"setcustomitemprogressbar(actor,item,index,json)",
+		],
+		"description": "设置自定义进度条参数"
+	},
+	"修改物品持久度": {
+		"prefix": "setdura",
+		"body": [
+			"setdura(actor,itemmakeid,char,dura)",
+		],
+		"description": "修改物品持久度"
+	},
+	"关闭地图计时器": {
+		"prefix": "setenvirofftimer",
+		"body": [
+			"setenvirofftimer(MapId,Idx)",
+		],
+		"description": "关闭地图计时器"
+	},
+	"设定地图计时器": {
+		"prefix": "setenvirontimer",
+		"body": [
+			"setenvirontimer(MapId,Idx,second,func)",
+		],
+		"description": "设定地图计时器"
+	},
+	"设置人物标记/标识值": {
+		"prefix": "setflagstatus",
+		"body": [
+			"setflagstatus(actor,nIndex,nvalue)",
+		],
+		"description": "设置人物标记/标识值"
+	},
+	"设置玩家GM权限值": {
+		"prefix": "setgmlevel",
+		"body": [
+			"setgmlevel(actor,gmlevel)",
+		],
+		"description": "设置玩家GM权限值"
+	},
+	"设置行会信息": {
+		"prefix": "setguildinfo",
+		"body": [
+			"setguildinfo(actor,index,value)",
+		],
+		"description": "设置行会信息"
+	},
+	"给行会自定义变量赋值": {
+		"prefix": "setguildvar",
+		"body": [
+			"setguildvar(guild,varName,value,isSave)",
+		],
+		"description": "给行会自定义变量赋值"
+	},
+	"顶戴花翎": {
+		"prefix": "seticon",
+		"body": [
+			"seticon(actor,where,effType,resName,x,y,autoDrop,selfSee,posM)",
+		],
+		"description": "顶戴花翎"
+	},
+	"设置物品记录信息": {
+		"prefix": "setitemaddvalue",
+		"body": [
+			"setitemaddvalue(actor,item,type,position,value)",
+		],
+		"description": "设置物品记录信息"
+	},
+	"设置物品自定义属性": {
+		"prefix": "setitemcustomabil",
+		"body": [
+			"setitemcustomabil(actor,item,value)",
+		],
+		"description": "设置物品自定义属性"
+	},
+	"设置物品特效": {
+		"prefix": "setitemeffect",
+		"body": [
+			"setitemeffect(actor,index,bageffectid,ineffectid)",
+		],
+		"description": "设置物品特效"
+	},
+	"修改装备内观Looks值": {
+		"prefix": "setitemlooks",
+		"body": [
+			"setitemlooks(actor,pos,char,pictrue)",
+		],
+		"description": "修改装备内观Looks值"
+	},
+	"设置物品绑定状态": {
+		"prefix": "setitemstate",
+		"body": [
+			"setitemstate(item,bind,state)",
+		],
+		"description": "设置物品绑定状态"
+	},
+	"增加技能防御力": {
+		"prefix": "setmagicdefpower",
+		"body": [
+			"setmagicdefpower(actor,skillname,value,type)",
+		],
+		"description": "增加技能防御力"
+	},
+	"增加技能威力": {
+		"prefix": "setmagicpower",
+		"body": [
+			"setmagicpower(actor,skillname,value,type)",
+		],
+		"description": "增加技能威力"
+	},
+	"将怪物设置为宝宝": {
+		"prefix": "setmonmaster",
+		"body": [
+			"setmonmaster(mon,actor)",
+		],
+		"description": "将怪物设置为宝宝"
+	},
+	"设置当前人物在国家的职位格式": {
+		"prefix": "setnationking",
+		"body": [
+			"setnationking(actor,jobIdx)",
+		],
+		"description": "设置当前人物在国家的职位格式"
+	},
+	"修改国家职位名称": {
+		"prefix": "setnationrank",
+		"body": [
+			"setnationrank(actor,nIdx,jobIdx,jobName)",
+		],
+		"description": "修改国家职位名称"
+	},
+	"设置装备的元素属性": {
+		"prefix": "setnewitemvalue",
+		"body": [
+			"setnewitemvalue(actor,where,iAttr,sFlag,iValue)",
+		],
+		"description": "设置装备的元素属性"
+	},
+	"设置NPC特效": {
+		"prefix": "setnpceffect",
+		"body": [
+			"setnpceffect(actor,NPCIndex,Effect,X,Y)",
+		],
+		"description": "设置NPC特效"
+	},
+	"移除全局定时器": {
+		"prefix": "setofftimerex",
+		"body": [
+			"setofftimerex(id)",
+		],
+		"description": "移除全局定时器"
+	},
+	"移除个人定时器": {
+		"prefix": "setofftimer",
+		"body": [
+			"setofftimer(actor,id,RunTick,RunTime,kf)",
+		],
+		"description": "移除个人定时器"
+	},
+	"添加个人定时器": {
+		"prefix": "setontimer",
+		"body": [
+			"setontimer(actor,id,RunTick,RunTime,kf)",
+		],
+		"description": "添加个人定时器"
+	},
+	"添加全局定时器": {
+		"prefix": "setontimerex",
+		"body": [
+			"setontimerex(id,tick,count)",
+		],
+		"description": "添加全局定时器"
+	},
+	"获取宠物蛋等级": {
+		"prefix": "setpetegglevel",
+		"body": [
+			"setpetegglevel(actor,itemmakeid,level,zlevel,exp)",
+		],
+		"description": "获取宠物蛋等级"
+	},
+	"设置宠物模式": {
+		"prefix": "setpetmode",
+		"body": [
+			"setpetmode(actor,mode)",
+		],
+		"description": "设置宠物模式"
+	},
+	"设置玩家变量": {
+		"prefix": "setplaydef",
+		"body": [
+			"setplaydef(actor,varName,varValue)",
+		],
+		"description": "设置玩家变量"
+	},
+	"设置行会成员在行会中的职位": {
+		"prefix": "setplayguildlevel",
+		"body": [
+			"setplayguildlevel(actor,pos)",
+		],
+		"description": "设置行会成员在行会中的职位"
+	},
+	"给玩家自定义变量赋值": {
+		"prefix": "setplayvar",
+		"body": [
+			"setplayvar(actor,varType,varName,varValue,isSave)",
+		],
+		"description": "给玩家自定义变量赋值"
+	},
+	"显示人物的称号": {
+		"prefix": "setranklevelname",
+		"body": [
+			"setranklevelname(actor,levelname)",
+		],
+		"description": "显示人物的称号"
+	},
+	"减少技能CD冷却时间": {
+		"prefix": "setskilldeccd",
+		"body": [
+			"setskilldeccd(actor,skillname,char,time)",
+		],
+		"description": "减少技能CD冷却时间"
+	},
+	"设置技能等级": {
+		"prefix": "setskillinfo",
+		"body": [
+			"setskillinfo(actor,skillid,flag,point)",
+		],
+		"description": "设置技能等级"
+	},
+	"开/关首饰盒": {
+		"prefix": "setsndaitembox",
+		"body": [
+			"setsndaitembox(actor,bState)",
+		],
+		"description": "开/关首饰盒"
+	},
+	"设置人物伤害吸收": {
+		"prefix": "setsuckdamage",
+		"body": [
+			"setsuckdamage(actor,operate,sum,rate,success)",
+		],
+		"description": "设置人物伤害吸收"
+	},
+	"设置全局变量": {
+		"prefix": "setsysvar",
+		"body": [
+			"setsysvar(varName,varValue)",
+		],
+		"description": "设置全局变量"
+	},
+	"给全局自定义变量赋值": {
+		"prefix": "setsysvarex",
+		"body": [
+			"setsysvarex(varName,varValue,isSave)",
+		],
+		"description": "给全局自定义变量赋值"
+	},
+	"设置当前攻击目标": {
+		"prefix": "settargetcert",
+		"body": [
+			"settargetcert(Hiter,Target)",
+		],
+		"description": "设置当前攻击目标"
+	},
+	"设置物品来源": {
+		"prefix": "setthrowitemly",
+		"body": [
+			"setthrowitemly(jsonStr)",
+		],
+		"description": "设置物品来源"
+	},
+	"设置物品来源(使用物品对象)": {
+		"prefix": "setthrowitemly2",
+		"body": [
+			"setthrowitemly2(actor,item,jsonStr)",
+		],
+		"description": "设置物品来源(使用物品对象)"
+	},
+	"设置人物永久属性": {
+		"prefix": "setusebonuspoint",
+		"body": [
+			"setusebonuspoint(actor,nIndex,nvalue)",
+		],
+		"description": "设置人物永久属性"
+	},
+	"采集挖矿等进度条操作": {
+		"prefix": "showprogressbardlg",
+		"body": [
+			"showprogressbardlg(actor,time,succ,msg,canstop,fail)",
+		],
+		"description": "采集挖矿等进度条操作"
+	},
+	"装备镶嵌钻石": {
+		"prefix": "socketableitem",
+		"body": [
+			"socketableitem(actor,item,hole,index)",
+		],
+		"description": "装备镶嵌钻石"
+	},
+	"自定义变量排序": {
+		"prefix": "sorthumvar",
+		"body": [
+			"sorthumvar(varName,playflag,sortflag,count)",
+		],
+		"description": "自定义变量排序"
+	},
+	"开启自动挂机": {
+		"prefix": "startautoattack",
+		"body": [
+			"startautoattack(actor)",
+		],
+		"description": "开启自动挂机"
+	},
+	"停止执行": {
+		"prefix": "stop",
+		"body": [
+			"stop(actor)",
+		],
+		"description": "停止执行"
+	},
+	"停止自动挂机": {
+		"prefix": "stopautoattack",
+		"body": [
+			"stopautoattack(actor)",
+		],
+		"description": "停止自动挂机"
+	},
+	"停止拾取": {
+		"prefix": "stoppickupitems",
+		"body": [
+			"stoppickupitems(actor)",
+		],
+		"description": "停止拾取"
+	},
+	"跨服变量传递": {
+		"prefix": "synzvar",
+		"body": [
+			"synzvar(itype,astr,bstr,id)",
+		],
+		"description": "跨服变量传递"
+	},
+	"回收OK框物品": {
+		"prefix": "takedlgitem",
+		"body": [
+			"takedlgitem(actor,count)",
+		],
+		"description": "回收OK框物品"
+	},
+	"拿物品": {
+		"prefix": "takeitem",
+		"body": [
+			"takeitem(actor,itemname,qty,IgnoreJP) return boolean",
+		],
+		"description": "拿物品"
+	},
+	"脱下装备": {
+		"prefix": "takeoffitem",
+		"body": [
+			"takeoffitem(actor,where,makeindex)",
+		],
+		"description": "脱下装备"
+	},
+	"穿戴装备": {
+		"prefix": "takeonitem",
+		"body": [
+			"takeonitem(actor,where,makeindex)",
+		],
+		"description": "穿戴装备"
+	},
+	"任务置顶显示": {
+		"prefix": "tasktopshow",
+		"body": [
+			"tasktopshow(actor,nId)",
+		],
+		"description": "任务置顶显示"
+	},
+	"表格转换成字符串": {
+		"prefix": "tbl2json",
+		"body": [
+			"tbl2json(tbl)",
+		],
+		"description": "表格转换成字符串"
+	},
+	"剔除离线挂机角色": {
+		"prefix": "tdummy",
+		"body": [
+			"tdummy(mapID,level,count)",
+		],
+		"description": "剔除离线挂机角色"
+	},
+	"设置玩家穿人穿怪": {
+		"prefix": "throughhum",
+		"body": [
+			"throughhum(actor,type,time,objtype)",
+		],
+		"description": "设置玩家穿人穿怪"
+	},
+	"在地图上放置物品": {
+		"prefix": "throwitem",
+		"body": [
+			"throwitem(actor,MapId,X,Y,range,itemName,count,time,hint,take,onlyself,xyinorder)",
+		],
+		"description": "在地图上放置物品"
+	},
+	"收回英雄": {
+		"prefix": "unrecallhero",
+		"body": [
+			"unrecallhero(actor)",
+		],
+		"description": "收回英雄"
+	},
+	"返回收回的宠物对象": {
+		"prefix": "unrecallpet",
+		"body": [
+			"unrecallpet(actor,idx)",
+		],
+		"description": "返回收回的宠物对象"
+	},
+	"给人物装备面板加特效": {
+		"prefix": "updateequipeffect",
+		"body": [
+			"updateequipeffect(actor,effectid,position)",
+		],
+		"description": "给人物装备面板加特效"
+	},
+	"查看别人面板信息": {
+		"prefix": "viewplayer",
+		"body": [
+			"viewplayer(actor,userid,winID)",
+		],
+		"description": "查看别人面板信息"
+	},
+	"写入Ini文件中的字段值": {
+		"prefix": "writeini",
+		"body": [
+			"writeini(filename,section,item,value)",
+		],
+		"description": "写入Ini文件中的字段值"
+	},
+	"写入Ini文件中的字段值 带Cache": {
+		"prefix": "writeinibycache",
+		"body": [
+			"writeinibycache(filename,section,item,value)",
+		],
+		"description": "写入Ini文件中的字段值 带Cache"
+	},
+	"获取动态地图连接": {
+		"prefix": "getmapgate",
+		"body": [
+			"getmapgate(actor,mapID)",
+		],
+		"description": "获取动态地图连接"
+	},
+	"根据名称获取地图基础信息": {
+		"prefix": "getmapinfo",
+		"body": [
+			"getmapinfo(mapname,nIndex)",
+		],
+		"description": "根据名称获取地图基础信息"
+	},
+	"获取地图指定范围内的怪物对象列表": {
+		"prefix": "getmapmon",
+		"body": [
+			"getmapmon(mapID,monName,nx,ny,nRange)",
+		],
+		"description": "获取地图指定范围内的怪物对象列表"
+	},
+	"根据地图id返回地图名": {
+		"prefix": "getmapname",
+		"body": [
+			"getmapname(mapID)",
+		],
+		"description": "根据地图id返回地图名"
+	},
+	"返回怪物基础信息": {
+		"prefix": "getmonbaseinfo",
+		"body": [
+			"getmonbaseinfo(monidx,id)",
+		],
+		"description": "返回怪物基础信息"
+	},
+	"根据UserId返回怪物对象": {
+		"prefix": "getmonbyuserid",
+		"body": [
+			"getmonbyuserid(mapID,monUserId)",
+		],
+		"description": "根据UserId返回怪物对象"
+	},
+	"获取指定地图怪物数量": {
+		"prefix": "getmoncount",
+		"body": [
+			"getmoncount(mapID,MonId,isAllMon)",
+		],
+		"description": "获取指定地图怪物数量"
+	},
+	"获取怪物位置及复活时间": {
+		"prefix": "getmonrefresh",
+		"body": [
+			"getmonrefresh(mapID)",
+		],
+		"description": "获取怪物位置及复活时间"
+	},
+	"获取玩家所在的行会对象": {
+		"prefix": "getmyguild",
+		"body": [
+			"getmyguild(actor)",
+		],
+		"description": "获取玩家所在的行会对象"
+	},
+	"获取物品的附加属性": {
+		"prefix": "getnewitemaddvalue",
+		"body": [
+			"getnewitemaddvalue(item,value)",
+		],
+		"description": "获取物品的附加属性"
+	},
+	"根据ID获取NPC对象": {
+		"prefix": "getnpcbyindex",
+		"body": [
+			"getnpcbyindex(npcIdx)",
+		],
+		"description": "根据ID获取NPC对象"
+	},
+	"获取NPC对象的Idx": {
+		"prefix": "getnpcindex",
+		"body": [
+			"getnpcindex(npc)",
+		],
+		"description": "获取NPC对象的Idx"
+	},
+	"获取地图上指定范围内的对象": {
+		"prefix": "getobjectinmap",
+		"body": [
+			"getobjectinmap(mapID,X,Y,range,flag)",
+		],
+		"description": "获取地图上指定范围内的对象"
+	},
+	"获取对面人物的名字": {
+		"prefix": "getoppositeobj",
+		"body": [
+			"getoppositeobj(actor)",
+		],
+		"description": "获取对面人物的名字"
+	},
+	"获取宠物": {
+		"prefix": "getpet",
+		"body": [
+			"getpet(actor,idx)",
+		],
+		"description": "获取宠物"
+	},
+	"获取宠物身上装备列表": {
+		"prefix": "getpetbodyitem",
+		"body": [
+			"getpetbodyitem(actor,idx)",
+		],
+		"description": "获取宠物身上装备列表"
+	},
+	"获取宠物蛋信息": {
+		"prefix": "getpetegglevel",
+		"body": [
+			"getpetegglevel(actor,itemmakeid,type)",
+		],
+		"description": "获取宠物蛋信息"
+	},
+	"获取玩家pk等级": {
+		"prefix": "getpklevel",
+		"body": [
+			"getpklevel(actor)",
+		],
+		"description": "获取玩家pk等级"
+	},
+	"获取当前NPC对象": {
+		"prefix": "getcurrnpc",
+		"body": [
+			"getcurrnpc(actor)",
+		],
+		"description": "获取当前NPC对象"
+	},
+	"获取自定义进度条参数": {
+		"prefix": "getcustomitemprogressbar",
+		"body": [
+			"getcustomitemprogressbar(actor,item,index)",
+		],
+		"description": "获取自定义进度条参数"
+	},
+	"获取装备开孔数据": {
+		"prefix": "getdrillhole",
+		"body": [
+			"getdrillhole(actor,item)",
+		],
+		"description": "获取装备开孔数据"
+	},
+	"获取Envir文件夹下文件列表": {
+		"prefix": "getenvirfilelist",
+		"body": [
+			"getenvirfilelist()",
+		],
+		"description": "获取Envir文件夹下文件列表"
+	},
+	"获取人物标记/标识值": {
+		"prefix": "getflagstatus",
+		"body": [
+			"getflagstatus(actor,index)",
+		],
+		"description": "获取人物标记/标识值"
+	},
+	"获取玩家好友列表": {
+		"prefix": "getfriendnamelist",
+		"body": [
+			"getfriendnamelist(actor)",
+		],
+		"description": "获取玩家好友列表"
+	},
+	"取字符串在csv表格中的行号": {
+		"prefix": "getgjcsv",
+		"body": [
+			"getgjcsv()",
+		],
+		"description": "取字符串在csv表格中的行号"
+	},
+	"获取玩家GM权限值": {
+		"prefix": "getgmlevel",
+		"body": [
+			"getgmlevel(actor)",
+		],
+		"description": "获取玩家GM权限值"
+	},
+	"获取队员列表": {
+		"prefix": "getgroupmember",
+		"body": [
+		"getgroupmember(actor)"
+		],
+		"description": "获取队员列表"
+	},
+	"获取行会信息": {
+		"prefix": "getguildinfo",
+		"body": [
+			"getguildinfo(actor, index)"
+		],
+		"description": "获取行会信息 - actor: 玩家对象 - index: 索引"
+	},
+	"获取行会成员数量": {
+		"prefix": "getguildmembercount",
+		"body": [
+		"getguildmembercount(actor)"
+		],
+		"description": "获取人物所在行会成员数量"
+	},
+	"获取行会自定义变量": {
+		"prefix": "getguildvar",
+		"body": [
+		"getguildvar(guild,index)"
+		],
+		"description": "获取行会自定义变量"
+	},
+	"获取英雄对象": {
+		"prefix": "gethero",
+		"body": [
+		"gethero(actor)"
+		],
+		"description": "获取英雄对象 - actor: 玩家对象"
+	},
+	"获取当前表格最大行数、和获取表格最大列数": {
+		"prefix": "gethlcsv",
+		"body": [
+		"gethlcsv(filename,type)"
+		],
+		"description": "获取当前表格最大行数、和获取表格最大列数 - filename: 文件名 - type: 读取目标：0-行数 1-列数"
+	},
+	"获取人物属性": {
+		"prefix": "gethumability",
+		"body": [
+		"gethumability(actor,id)"
+		],
+		"description": "获取人物属性 - actor: 玩家对象 - id: 属性ID（1-20）"
+	},
+	"获取人物临时属性": {
+		"prefix": "gethumnewvalue",
+		"body": [
+		"gethumnewvalue(actor,nWhere)"
+		],
+		"description": "获取人物临时属性 - actor: 玩家对象 - nWhere: 位置 对应cfg_att_score 属性ID"
+	},
+	"获取物品记录信息": {
+		"prefix": "getitemaddvalue",
+		"body": [
+		"getitemaddvalue(actor,item,type,position)"
+		],
+		"description": "获取物品记录信息 - actor: 玩家对象 - item: 物品对象 - type: [1,2,3] - position: 当type=1,取值范围[0..49] type=2,取值范围[0..19]"
+	},
+	"根据物品唯一ID获得物品对象": {
+		"prefix": "getitembymakeindex",
+		"body": [
+		"getitembymakeindex(actor,makeindex)"
+		],
+		"description": "根据物品唯一ID获得物品对象 - actor: 玩家对象 - makeindex: 物品唯一ID"
+	},
+	"获取自定义属性": {
+		"prefix": "getitemcustomabil",
+		"body": [
+		"getitemcustomabil(actor,item)"
+		],
+		"description": "获取自定义属性 - actor: 玩家对象 - item: 物品对象"
+	},
+	"获取物品信息": {
+	"prefix": "getiteminfo",
+	"body": [
+		"getiteminfo(actor,item,id)"
+	],
+	"description": "获取物品信息 - actor: 玩家对象 - item: 物品对象 - id: 1:唯一ID 2:物品ID 3:剩余持久 4:最大持久 5:叠加数量 6:绑定状态",
+	},
+	"根据索引返回背包物品信息": {
+		"prefix": "getiteminfobyindex",
+		"body": [
+		  "getiteminfobyindex(actor,index)"
+		],
+		"description": "根据索引返回背包物品信息 - actor: 玩家对象 - index: 索引号,0开始"
+	},
+	"嘲讽怪物": {
+		"prefix": "dotaunt",
+		"body": [
+		  "dotaunt(actor,distance,grade)"
+		],
+		"description": "嘲讽怪物 - actor: 玩家对象 - distance: 距离人物格子数 - grade: 受嘲讽影响的怪物等级上限"
+	},
+	"装备开孔": {
+		"prefix": "drillhole",
+		"body": [
+		  "drillhole(actor,item,holejson)"
+		],
+		"description": "装备开孔 - actor: 玩家对象 - item: 装备对象 - holejson: 开孔相关 json字符串 支持0~9共10个孔"
+	},
+	"使用物品": {
+		"prefix": "eatitem",
+		"body": [
+		  "eatitem(actor,itemname,count)"
+		],
+		"description": "使用物品（吃药、使用特殊物品等） - actor: 玩家对象 - itemname: 物品名称 - count: 使用数量"
+	},
+	"敏感词汇检测": {
+		"prefix": "exisitssensitiveword",
+		"body": [
+		  "exisitssensitiveword(str)"
+		],
+		"description": "敏感词汇检测 - str: 要检测的文本"
+	},
+	"过滤全服提示信息": {
+		"prefix": "filterglobalmsg",
+		"body": [
+		  "filterglobalmsg(actor,flag)"
+		],
+		"description": "过滤全服提示信息 - actor: 玩家对象 - flag: 是否过滤0-不过滤 1-过滤"
+	},
+	"搜索行会": {
+		"prefix": "findguild",
+		"body": [
+		  "findguild(index,key)"
+		],
+		"description": "搜索行会 - index: 搜索关键词 0-行会ID 1-行会名称 - key: 搜索关键词"
+	},
+	"清除宠物属性": {
+	  "prefix": "delpetattlist",
+	  "body": [
+		"delpetattlist(actor,idx,attrName)"
+	  ],
+	  "description": "清除宠物属性 - actor: 玩家对象 - idx: 宠物序号 - attrName: 清空对应属性组的属性;nil清除所有属性组"
+	},
+	"删除宠物攻击表现": {
+	  "prefix": "delpetskill",
+	  "body": [
+		"delpetskill(actor, idx, skillid)"
+	  ],
+	  "description": "删除宠物攻击表现 - actor: 玩家对象 - idx: 宠物序号或\"X\"表示当前宠物 - skillid: 增加的攻击表现ID 为cfg_monattack表中的ID"
+	},
+	"镖车自动寻路到指定坐标": {
+	  "prefix": "dartmap",
+	  "body": [
+		"dartmap(actor, aimX, aimY, range)"
+	  ],
+	  "description": "镖车自动寻路到指定坐标 - actor: 玩家对象 - aimX: 目标X坐标 - aimY: 目标Y坐标 - range: 人物离镖车距离内自动寻路取值范围，0-120-不检测"
+	},
+	"人物下线 镖车存活设置": {
+	  "prefix": "darttime",
+	  "body": [
+		"darttime(actor, time, isdie)"
+	  ],
+	  "description": "人物下线 镖车存活设置 - actor: 玩家对象 - time: 镖车存活时间 秒 - isdie: 下线是否消失0-消失 1-时间到达消失"
+	},
+	"延时跳转": {
+	  "prefix": "delaygoto",
+	  "body": [
+		"delaygoto(actor, time, func, del)"
+	  ],
+	  "description": "延时跳转 - actor: 玩家对象 - time: 时间(毫秒) - func: 触发函数 - del: 换地图是否删除此延时，0或为空时=不删除，1=删除",
+	},
+	"延时消息跳转": {
+	  "prefix": "delaymsggoto",
+	  "body": [
+		"delaymsggoto(actor, time, func)"
+	  ],
+	  "description": "延时消息跳转 - actor: 玩家对象 - time: 时间(毫秒) - func: 触发函数",
+	},
+	"删除buff": {
+	  "prefix": "delbuff",
+	  "body": [
+		"delbuff(actor, buffid)"
+	  ],
+	  "description": "删除buff - actor: 玩家对象 - buffid: buffID"
+	},
+	"删除气泡": {
+	  "prefix": "delbutshow",
+	  "body": [
+		"delbutshow(actor, id)"
+	  ],
+	  "description": "删除气泡 - actor: 玩家对象 - id: 玩家对象"
+	},
+	"删除自定义按钮": {
+	  "prefix": "delbutton",
+	  "body": [
+		"delbutton(actor, windowid, buttonid)"
+	  ],
+	  "description": "删除自定义按钮 - actor: 玩家对象 - windowid: 主窗口ID - buttonid: 按钮ID"
+	},
+	"关闭屏幕特效": {
+	  "prefix": "deleffects",
+	  "body": [
+		"deleffects(actor, id, type)"
+	  ],
+	  "description": "关闭屏幕特效 - actor: 玩家对象 - id: 创建的特效编号 - type: 播放模式 0-自己 1-所有人"
+	},
+	"删除队员": {
+	  "prefix": "delgroupmember",
+	  "body": [
+		"delgroupmember(actor, memberId)"
+	  ],
+	  "description": "删除队员 - actor: 玩家对象 - memberId: 组员UserId"
+	},
+	"添加称号": {
+	  "prefix": "confertitle",
+	  "body": [
+		"confertitle(actor, name, use)"
+	  ],
+	  "description": "添加称号 - actor: 玩家对象 - name: 称号物品名称 - use: 开启激活 1激活"
+	},
+	"扣除人物通用货币数量(多货币依次计算)": {
+	  "prefix": "consumebindmoney",
+	  "body": [
+		"consumebindmoney(actor, moneyname, count)"
+	  ],
+	  "description": "扣除人物通用货币数量(多货币依次计算) - actor: 玩家对象 - moneyname: 货币名称 - count: 对应货币值"
+	},
+	"创建队伍": {
+	  "prefix": "creategroup",
+	  "body": [
+		"creategroup(actor)"
+	  ],
+	  "description": "创建队伍 - actor: 玩家对象"
+	},
+	"创建英雄": {
+	  "prefix": "createhero",
+	  "body": [
+		"createhero(actor, name, job, sex)"
+	  ],
+	  "description": "创建英雄 - actor: 玩家对象 - name: 英雄名称 - job: 职业 - sex: 性别"
+	},
+	"创建国家": {
+	  "prefix": "createnation",
+	  "body": [
+		"createnation(actor, nIdx, maxNum)"
+	  ],
+	  "description": "创建国家 - actor: 玩家对象 - nIdx: 国家ID (1~100) - maxNum: 限制人数"
+	},
+	"创建临时NPC": {
+	  "prefix": "createnpc",
+	  "body": [
+		"createnpc(actor, X, Y, npcJosn)"
+	  ],
+	  "description": "创建临时NPC - actor: 玩家对象 - X: X坐标 - Y: Y坐标 - npcJosn: NPC信息 json字符串"
+	},
+	"召唤宠物(无需宠物蛋)": {
+	  "prefix": "createpet",
+	  "body": [
+		"createpet(actor, monname, level)"
+	  ],
+	  "description": "召唤宠物(无需宠物蛋) - actor: 玩家对象 - monname: 自定义怪物名称 - level: 怪物等级"
+	},
+	"修改人物临时属性（带有效期）": {
+	  "prefix": "changehumnewvalue",
+	  "body": [
+		"changehumnewvalue(actor, nWhere, nValue, nTime)"
+	  ],
+	  "description": "修改人物临时属性（带有效期） - actor: 玩家对象 - nWhere: 位置 对应cfg_att_score 属性ID - nValue: 对应属性值 - nTime: 有效时间 秒"
+	},
+	"将物品唯一ID转换成道具表里对应的IDX物品": {
+	  "prefix": "changeitemidx",
+	  "body": [
+		"changeitemidx(actor, itemmakeid, itemidx)"
+	  ],
+	  "description": "将物品唯一ID转换成道具表里对应的IDX物品 - actor: 玩家对象 - itemmakeid: 唯一ID - itemidx: 道具ID"
+	},
+	"调整人物身上物品装备名字颜色": {
+	  "prefix": "changeitemnamecolor",
+	  "body": [
+		"changeitemnamecolor(actor, item, color)"
+	  ],
+	  "description": "调整人物身上物品装备名字颜色 - actor: 玩家对象 - item: 物品对象 - color: 颜色(0-255)颜色=0时恢复默认颜色"
+	},
+	"修改武器、衣服外观": {
+	  "prefix": "changeitemshape",
+	  "body": [
+		"changeitemshape(actor, item, looks)"
+	  ],
+	  "description": "修改武器、衣服外观 - actor: 玩家对象 - item: 物品对象 - looks: 外观值"
+	},
+	"调整人物等级": {
+	  "prefix": "changelevel",
+	  "body": [
+		"changelevel(actor, opt, count)"
+	  ],
+	  "description": "调整人物等级 - actor: 玩家对象 - opt: 操作符 + - = - count: 数量"
+	},
+	"修改宝宝属性值": {
+	  "prefix": "changemobability",
+	  "body": [
+		"changemobability(actor, mob, attr, method, value, time)"
+	  ],
+	  "description": "修改宝宝属性值 - actor: 玩家对象 - mob: 宝宝对象 - attr: 属性位置 - method: 操作符(+ - =) - value: 属性值 - time: 有效时间"
+	},
+	"改变人物模式": {
+	  "prefix": "changemode",
+	  "body": [
+		"changemode(actor, mode, time, param1, param2)"
+	  ],
+	  "description": "改变人物模式 - actor: 玩家对象 - mode: 模式1~24 - time: 时间(秒) - param1: 参数1,12-13 18 20 21代表几率 其余代表属性值 - param2: 参数2 代表属性值"
+	},
+	"设置人物货币": {
+	  "prefix": "changemoney",
+	  "body": [
+		"changemoney(actor, id, opt, count, msg, send)"
+	  ],
+	  "description": "设置人物货币 - actor: 玩家对象 - id: 货币ID 1-100 - opt: 操作符 + - = - count: 数量 - msg: 备注内容 - send: 是否推送到客户端"
+	},
+	"修改宝宝名称": {
+	  "prefix": "changemonname",
+	  "body": [
+		"changemonname(mon, name)"
+	  ],
+	  "description": "修改宝宝名称 - mon: 宝宝对象 - name: 宝宝名字"
+	},
+	"修改人物名字颜色": {
+	  "prefix": "changenamecolor",
+	  "body": [
+		"changenamecolor(actor, color)"
+	  ],
+	  "description": "修改人物名字颜色 - actor: 玩家对象 - color: 颜色索引"
+	},
+	"修改宝宝等级": {
+	  "prefix": "changeslavelevel",
+	  "body": [
+		"changeslavelevel(actor, mon, opt, nLevel)"
+	  ],
+	  "description": "修改宝宝等级 - actor: 玩家对象 - mon: 宝宝对象 - opt: 操作符 + - = - nLevel:等级"
+	},
+  	"改变玩家速度": {
+	  "prefix": "changespeed",
+	  "body": [
+		"changespeed(actor, type, level)"
+	  ],
+	  "description": "改变玩家速度 - actor: 玩家对象 - type: 速度类型 1-移动速度2-攻击速度3-施法速度 - level: 速度等级 -10~100-原始速度，-1时间间隔减少10%+1时间间隔增加10%"
+	},
+	"新解锁仓库格子": {
+		"prefix": "changestorage",
+		"body": [
+		  "changestorage(actor, nCount)"
+		],
+		"description": "新解锁仓库格子 - actor: 玩家对象 - nCount: 新解锁的格子数"
+	},
+	"检查国家是否创建": {
+		"prefix": "checkation",
+		"body": [
+		  "checkation(nIdx)"
+		],
+		"description": "检查国家是否创建 - nIdx: 国家ID"
+	},
+	"设置英雄名称": {
+		"prefix": "checkheroname",
+		"body": [
+		  "checkheroname(actor, name)"
+		],
+		"description": "设置英雄名称 - actor: 玩家对象 - name: 英雄名称"
+	},
+	"检测人/怪物状态": {
+	  "prefix": "checkhumanstate",
+	  "body": [
+		"checkhumanstate(objcfg, type)"
+	  ],
+	  "description": "检测人/怪物状态 - objcfg: 玩家/怪物 对象 - type: 类型 见说明书"
+	},
+	"检测当前人物是否在跨服的地图": {
+	  "prefix": "checkkuafu",
+	  "body": [
+		"checkkuafu(actor)"
+	  ],
+	  "description": "检测当前人物是否在跨服的地图 - actor: 玩家对象"
+	},
+	"检查跨服连接是否正常连接": {
+	  "prefix": "checkkuafuconnect",
+	  "body": [
+		"checkkuafuconnect()"
+	  ],
+	  "description": "检查跨服连接是否正常连接"
+	},
+	"检测当前服务器是否为跨服服务器": {
+	  "prefix": "checkkuafuserver",
+	  "body": [
+		"checkkuafuserver()"
+	  ],
+	  "description": "检测当前服务器是否为跨服服务器"
+	},
+	"检测镜像地图是否存在": {
+	  "prefix": "checkmirrormap",
+	  "body": [
+		"checkmirrormap(MapId)"
+	  ],
+	  "description": "检测镜像地图是否存在 - MapId: 地图ID"
+	},
+	"检测加入国家": {
+	  "prefix": "checknational",
+	  "body": [
+		"checknational(actor, nIdx)"
+	  ],
+	  "description": "检测加入国家 - actor: 玩家对象 - nIdx: 国家编号 0~100 0代表没有加入国家"
+	},
+	"检查国家人物总数": {
+	  "prefix": "checknationhumcount",
+	  "body": [
+		"checknationhumcount(actor, sFlag, iValue)"
+	  ],
+	  "description": "检查国家人物总数 - actor: 玩家对象 - sFlag: 比较符 =<> - iValue: 人数"
+	},
+	"检测装备的元素属性": {
+	  "prefix": "checknewitemvalue",
+	  "body": [
+		"checknewitemvalue(actor, where, iAttr, sFlag, iValue)"
+	  ],
+	  "description": "检测装备的元素属性 - actor: 玩家对象 - where: 装备位置：-1-OK框中的装备 0~55-身上的装备 - iAttr: 属性 - sFlag: 比较符=<>, - iValue: 数值(1-100)，百分比"
+	},
+	"是否在骑马": {
+	  "prefix": "checkonhorse",
+	  "body": [
+		"checkonhorse(actor)"
+	  ],
+	  "description": "是否在骑马 - actor: 玩家对象"
+	},
+	"检测范围内怪物数量": {
+	  "prefix": "checkrangemoncount",
+	  "body": [
+		"checkrangemoncount(actor, monName, nx, ny, nRange)"
+	  ],
+	  "description": "检测范围内怪物数量 - actor: 玩家对象 - monName: 怪物名，为空 or * 为检测所有怪 - nx: 坐标X - ny: 坐标Y - nRange: 范围"
+	},
+	"检测拾取小精灵": {
+	  "prefix": "checkspritelevel",
+	  "body": [
+		"checkspritelevel(actor, monName)"
+	  ],
+	  "description": "检测拾取小精灵 - actor: 玩家对象 - monName: 精灵名称,为空 则检测全部"
+	},
+	"检测人物称号": {
+	  "prefix": "checktitle",
+	  "body": [
+		"checktitle(actor, title)"
+	  ],
+	  "description": "检测人物称号 - actor: 玩家对象 - title: 称号"
+	},
+	"删除延迟": {
+	  "prefix": "cleardelaygoto",
+	  "body": [
+		"cleardelaygoto(actor)"
+	  ],
+	  "description": "删除延迟 - actor: 玩家对象"
+	},
+	"清理自定义全局变量": {
+	  "prefix": "clearglobalcustvar",
+	  "body": [
+		"clearglobalcustvar(varName)"
+	  ],
+	  "description": "清理自定义全局变量 - varName: 变量名, * -所有变量"
+	},
+	"清理自定义行会变量": {
+	  "prefix": "clearguildcustvar",
+	  "body": [
+		"clearguildcustvar(actor, varName)"
+	  ],
+	  "description": "清理自定义行会变量 - actor: 行会名称,* -所有行会 - varName: 变量名,* -所有变量"
+	},
+	"清理个人自定义变量": {
+	  "prefix": "clearhumcustvar",
+	  "body": [
+		"clearhumcustvar(actor, varName)"
+	  ],
+	  "description": "清理个人自定义变量 - actor: 要清理的人物对象 传入 * 表示清理所有玩家 - varName: 变量名,* -所有变量"
+	},
+	"清理物品自定义属性": {
+	  "prefix": "clearitemcustomabil",
+	  "body": [
+		"clearitemcustomabil(actor, item, group)"
+	  ],
+	  "description": "清理物品自定义属性 - actor: 玩家对象 - item: 物品对象 - group: 组别，-1 所有组 0~5对应组别"
+	},
+	"清理地图上指定名字的物品": {
+	  "prefix": "clearitemmap",
+	  "body": [
+		"clearitemmap(MapId, X, Y, range, itemName)"
+	  ],
+	  "description": "清理地图上指定名字的物品 - MapId: 玩家对象 - X: X坐标 - Y: Y坐标 - range: 范围 - itemName: 物品名"
+	},
+	"刷怪": {
+	  "prefix": "genmon",
+	  "body": [
+		"genmon(mapid, X, Y, monname, range, count, color)"
+	  ],
+	  "description": "刷怪 - mapid: 玩家对象 - X: X坐标 - Y: Y坐标 - monname: 怪物名称 - range: 范围 - count: 数量 - color: 颜色(0~255)"
+	},
+	"刷怪(拓展)": {
+		"prefix": "genmonex",
+		"body": [
+			"genmonex(mapid, x, y, monname, range, count, owner, color, showName, isFilt, countryName, nAttack, nNatMonPk, nPlayerPk, nNg)"
+		],
+		"description": "刷怪(拓展) - mapid: 地图id - x: 坐标X - y: 坐标Y - monname: 怪物名称 - range: 范围 - count: 数量 - owner: 归属对象 - color: 颜色(0~255) - showName: 怪物自定义名称 - isFilt: 是否过滤数字(0过滤，1不过滤) - countryName: 国家名称 - nAttack: 是否可攻击同国家的玩家(0=不可以, 1=可以) - nNatMonPk: 不同国家怪物是否可PK(0=不可以, 1=可以) - nPlayerPk: 人物是否可以攻击相同国家怪物(0=可以, 1=不可以) - nNg: 是否是内功怪(0=普通怪, 1=内功怪)"
+		},
+		
+	"给按钮增加红点": {
+		"prefix": "reddot",
+	  "body": [
+	  "reddot(play, win_id, btn_id, x, y, type, path_effectID)"
+	  ],
+	  "description": "给按钮增加红点 - play: 玩家对象 - win_id: 窗口ID - btn_id: 按钮ID/任务栏填任务ID - x: X坐标 - y: Y坐标 - type: 红点模式(0=图片, 1=特效) - path/effectID: 红点模式=0(填图片路径), 红点模式=1(填特效编号)"
+	},
+	"给按钮删除红点": {
+	"prefix": "reddel",
+	  "body": [
+		  "reddel(play, win_id, btn_id)"
+	  ],
+	  "description": "给按钮删除红点 - play: 玩家对象 - win_id: 窗口ID - btn_id: 按钮ID/任务栏填任务ID"
+	},
+
+	"从装备位扣除物品": {
+		"prefix": "delbodyitem",
+		"body": [
+		  "delbodyitem(player, where)"
+		],
+		"description": "从装备位扣除物品 - player: 玩家对象 - where: 装备位"
+	},
+	"发送地图消息": {
+		"prefix": "sendmapmsg",
+		"body": [
+		  "sendmapmsg(mapid, msg)"
+		],
+		"description": "发送地图消息 - mapid: 地图id - msg: Json消息内容"
+	},
+	"怪物寻路/巡逻": {
+		"prefix": "monmission",
+		"body": [
+		  "monmission(player, posX, posY, modle)"
+		],
+		"description": "怪物寻路/巡逻 - player: 怪物对象 - posX: x坐标集 - posY: y坐标集 - modle: 0=寻路, 1=巡逻"
+	  },
+	  "命令移动怪物": {
+		"prefix": "movemontopos",
+		"body": [
+		  "movemontopos(monName, mapID, posX1, posY1, posX2, posY2)"
+		],
+		"description": "命令移动怪物 - monName: 怪物名字 - mapID: 地图ID - posX1: 老坐标X - posY1: 老坐标Y - posX2: 新坐标X - posY2: 新坐标Y"
+	},
+	"骰子功能": {
+		"prefix": "playdice",
+		"body": [
+		  "playdice(player, num, funcName)"
+		],
+		"description": "骰子功能 - player: 玩家对象 - num: 点数(1~6) - funcName: 动画结束触发"
+	},
+	"学习内功": {
+		"prefix": "readskillng",
+		"body": [
+			"readskillng(player)"
+		],
+		"description": "学习内功 - player: 玩家对象"
+	},
+	"获取内功等级": {
+		"prefix": "getnglevel",
+		"body": [
+		  "getnglevel(player)"
+		],
+		"description": "获取内功等级 - player: 玩家对象"
+	},
+	"调整人物内功等级": {
+		"prefix": "changenglevel",
+		"body": [
+		  "changenglevel(player, opt, value)"
+		],
+		"description": "调整人物内功等级 - player: 玩家对象 - opt: 控制符(=,+,-) - value: 等级"
+	},
+	"调整人物内功经验": {
+		"prefix": "changengexp",
+		"body": [
+		  "changengexp(player, opt, value)"
+		],
+		"description": "调整人物内功经验 - player: 玩家对象 - opt: 控制符(=,+,-) - value: 经验"
+	},
+	"开启经络页签": {
+		"prefix": "setpulsestate",
+		"body": [
+		  "setpulsestate(player, pulse, isOpen)"
+		],
+		"description": "开启经络页签 - player: 玩家对象 - pulse: 经络 - isOpen: 0=关闭, 1=开启"
+	},
+	"开启经络穴位": {
+		"prefix": "openpulse",
+		"body": [
+		  "openpulse(player, pulse, acupoint)"
+		],
+		"description": "开启经络穴位 - player: 玩家对象 - pulse: 经络 - acupoint: 穴位（1~5,经络的五个穴位）"
+	},
+	"修改经络的修炼等级格式": {
+		"prefix": "changepulselevel",
+		"body": [
+		  "changepulselevel(player, pulse, opt, level)"
+		],
+		"description": "修改经络的修炼等级格式 - player: 玩家对象 - pulse: 经络 - opt: 控制符(=,+,-) - level: 等级"
+	},
+	"学习内功/连击技能": {
+		"prefix": "addskillex",
+		"body": [
+		  "addskillex(player, skillName, skillLevel)"
+		],
+		"description": "学习内功/连击技能 - player: 玩家对象 - skillName: 技能名称 - skillLevel: 技能等级"
+	},
+	"获取怪物原始各项数据库字段值参数": {
+		"prefix": "getdbmonfieldvalue",
+		"body": [
+		  "getdbmonfieldvalue(monIdx_monName, fieldName)"
+		],
+		"description": "获取怪物原始各项数据库字段值参数 - monIdx/monName: 怪物ID/怪物名称 - fieldName: 字段名"
+	},
+	"新增接口根据StdMode获取装备位": {
+		"prefix": "getposbystdmode",
+		"body": [
+		  "getposbystdmode(player)"
+		],
+		"description": "新增接口根据StdMode获取装备位 - player: 道具StdMode"
+	},
+	"英雄改名接口": {
+		"prefix": "changeheroname",
+		"body": [
+			"changeheroname(player, heroName)"
+		],
+		"description": "英雄改名接口 - player: 玩家对象 - heroName: 英雄新名字"
+	},
+	"删除系统任务计时": {
+		"prefix": "deldsfuncall",
+		"body": [
+			"deldsfuncall(player, funcName)"
+		],
+		"description": "删除系统任务计时 - player: 玩家对象 - funcName: 回调函数名"
+	},
+	"改变系统任务计时": {
+		"prefix": "cngdsfuncallstate",
+		"body": [
+			"cngdsfuncallstate(player, funcName, model)"
+		],
+		"description": "改变系统任务计时 - player: 玩家对象 - funcName: 回调函数名 - model: 1=开启, 0=停止"
+	},
+	"增加系统任务计时": {
+		"prefix": "dsfuncall",
+		"body": [
+			"dsfuncall(player, funcName, time, model, isClear)"
+		],
+		"description": "增加系统任务计时 - player: 玩家对象 - funcName: 回调函数名 - time: 倒计时时间(毫秒) - model: 0=上线需重新开启否则消失, 1=上线直接执行 - isClear: 0=开启新的, 1=上线刷新当前时间"
+	},
+	"收摊": {
+		"prefix": "stopmyshop",
+		"body": [
+			"stopmyshop(player)"
+		],
+		"description": "收摊 - player: 玩家对象"
+	},
+	"调整HP(血量)的百分比": {
+		"prefix": "addhpper",
+		"body": [
+			"addhpper(player, opt, value)"
+		],
+		"description": "调整HP(血量)的百分比 - player: 玩家对象 - opt: 控制符(=,+,-) - value: 数值"
+	},
+	"调整MP(蓝量)的百分比": {
+		"prefix": "addmpper",
+		"body": [
+		  "addmpper(player, opt, value)"
+		],
+		"description": "调整MP(蓝量)的百分比 - player: 玩家对象 - opt: 控制符(=,+,-) - value: 数值"
+	},
+	"获取背包物品列表": {
+		"prefix": "getbagitems",
+		"body": [
+		  "getbagitems(player, itemName, isbind)"
+		],
+		"description": "获取背包物品列表 - player: 玩家对象 - itemName: 道具名字 - isbind: 是否绑定"
+	},
+	"等概率或者按权限随机获取分割字符串": {
+		"prefix": "ransjstr",
+		"body": [
+		  "ransjstr(str, param1, param2)"
+		],
+		"description": "等概率或者按权限随机获取分割字符串 - str: 需要获取随机的字符串 - param1: 0=系统权重随机,有几个字符串就是几份之一, 1=按#位权重随机总权重为各项位权重的总和 - param2: 0=返回值都显示#权重数字, 1=返回值都不显示#权重数字, 2=返回值1显示,返回值2不显示, 3=返回值2显示,返回值1不显示"
+	},
+	"拾取物品进背包动画效果": {
+		"prefix": "setpickitemtobag",
+		"body": [
+		  "setpickitemtobag(play, win_id, btn_id)"
+		],
+		"description": "拾取物品进背包动画效果 - play: 玩家对象 - win_id: 窗口ID - btn_id: 按钮ID"
+	},
+	"吸怪功能": {
+		"prefix": "monmove",
+		"body": [
+		  "monmove(play, max, min, monLevel, type, isMove, unLimit)"
+		],
+		"description": "吸怪功能 - play: 玩家对象 - max: 最大范围 - min: 最小范围 - monLevel: 怪物等级 - type: 0=不嘲讽玩家, 1=嘲讽玩家 - isMove: 0=怪物漂移到人物边, 1=怪物瞬移到目前人物坐标, 2=怪物瞬移到目前人物面前 - unLimit: 0=无限制, 1=怪物/人物攻击目标不归属自己的不可被吸"
+	},
+	"打印脚本总耗时(微秒)": {
+		"prefix": "printusetime",
+		"body": [
+		  "printusetime(play, on_off)"
+		],
+		"description": "打印脚本总耗时(微秒) - play: 玩家对象 - on/off: 0=开始计时, 1=结束计时，并打印耗时信息"
+	},
+	"自定义日志": {
+		"prefix": "logact",
+		"body": [
+		  "logact(play, logAct, loginfo)"
+		],
+		"description": "自定义日志 - play: 玩家对象 - logAct: 日志ID - loginfo: 日志内容"
+	},
+	"获取物品原始各项数据库字段值参数": {
+		"prefix": "getdbitemfieldvalue",
+		"body": [
+		  "getdbitemfieldvalue(itemIdx_itemName, fieldName)"
+		],
+		"description": "获取物品原始各项数据库字段值参数 - itemIdx/itemName: 物品ID/物品名称 - fieldName: 字段名"
+	},
+	"修复城门,城墙等": {
+		"prefix": "repaircastle",
+		"body": [
+		  "repaircastle()"
+		],
+		"description": "修复城门,城墙等"
+	},
+	"人物显示一个放大的虚影": {
+	  "prefix": "showphantom",
+	  "body": [
+		"showphantom(play, opacity, time)"
+	  ],
+	  "description": "人物显示一个放大的虚影 - play: 玩家对象 - opacity: 透明度(0~255) - time: 显示时间(秒)"
+	},
+	  "前端勾选面板控制命令": {
+		"prefix": "clientswitch",
+		"body": [
+		  "clientswitch(play, type, time)"
+		],
+		"description": "前端勾选面板控制命令 - play: 玩家对象 - type: 0=允许组队1=允许添加好友, 2允许交易, 3=允许挑战, 4允许查看, 5=允许添加为行会成员 - time: 1=允许(勾选), 0=不允许(不勾选)(秒)"
+	},
+	"获取当前地图行会成员数量": {
+	  "prefix": "maphanghcyguild",
+	  "body": [
+		"maphanghcyguild(mapID, guildName)"
+	  ],
+	  "description": "获取当前地图行会成员数量 - mapID: 地图编号 - guildName: 行会名字或*(*等于未加入行会人物)"
+	},
+	"绑定背包满触发": {
+	  "prefix": "bindEvent",
+	  "body": [
+		"bindEvent(play, bindingType, isOpen, callbackFunc)"
+	  ],
+	  "description": "绑定背包满触发 - play: 玩家对象 - bindingType: 绑定类型(1：背包满通知) - isOpen: 是否开启(0：关闭，1：开启) - callbackFunc: 回调函数(QF)"
+	},
+	"获取当前地图怪物状态": {
+	  "prefix": "mapbossinfo",
+	  "body": [
+		"mapbossinfo(mapID, monName, model, param)"
+	  ],
+	  "description": "获取当前地图怪物状态 - mapID: 地图编号 - monName: 怪物名称，*表示所有怪物 - model: 怪物名字格式，0=默认名称(带数字), 1=显示名字(不带数字) - param: 0/nil=获取表格内刷的怪物状态, 1=获取表格内和脚本刷的怪物状态"
+	},
+	"拉起微信和qq等功能": {
+	  "prefix": "sendforqqwx",
+	  "body": [
+		"sendforqqwx(play, model, param1, param2)"
+	  ],
+	  "description": "拉起微信和qq等功能 - play: 玩家对象 - model: 1=拉起QQ, 2=QQ好友, 3=QQ群, 4=微信 - param1: 参数2=2,填入QQ号, 参数2=3,填入QQ群号 - param2: 参数2=3,填入QQ群key"
+	},
+	"开启/关闭地图参数": {
+	  "prefix": "setmapmode",
+	  "body": [
+		"setmapmode(mapID, mapParam, model, param)"
+	  ],
+	  "description": "开启/关闭地图参数 - mapID: 地图编号 - mapParam: 地图参数 - model: 0/nil=关闭地图参数, 1=开启地图参数 - param: 地图参数里的需要的参数"
+	},
+	"装备批量增加附加属性": {
+	  "prefix": "setaddnewabil",
+	  "body": [
+		"setaddnewabil(play, where, opt, attrStr, item)"
+	  ],
+	  "description": "装备批量增加附加属性 - play: 玩家对象 - where: 装备位置(-2操作物品对象) - opt: 运算符(+,-,=) - attrStr: 属性组 - item: 物品对象"
+	},
+	"获取人物身上装备属性值命令": {
+	  "prefix": "getitemattidvalue",
+	  "body": [
+		"getitemattidvalue(play, model, attrID, where, item)"
+	  ],
+	  "description": "获取人物身上装备属性值命令 - play: 玩家对象 - model: 类型(1，装备表里基础数据 2，附加属性) - attrID: 属性ID - where: 装备位置(-2操作物品对象) - item: 物品对象"
+	},
+	"获取角色所有属性": {
+	  "prefix": "attrtab",
+	  "body": [
+		"attrtab(play)"
+	  ],
+	  "description": "获取角色所有属性 - play: 玩家对象"
+	},
+	"给视野内玩家发送自定义广播消息": {
+	  "prefix": "setotherparams",
+	  "body": [
+		"setotherparams(play, varIdx, varValue)"
+	  ],
+	  "description": "给视野内玩家发送自定义广播消息 - play: 玩家对象 - varIdx: 属性id(1~5) - varValue: 属性值"
+	},
+	"宝宝嘲讽": {
+	  "prefix": "mobdotaunt",
+	  "body": [
+		"mobdotaunt(play, idx, rang, levelMax)"
+	  ],
+	  "description": "宝宝嘲讽 - play: 玩家对象 - idx: 第几个宝宝（第一个宝宝为0） - rang: 距离格子数 - levelMax: 受嘲讽影响的怪物等级上限（不大于指定等级均会被吸引）"
+	},
+	"调整宝宝攻击人物的威力倍率": {
+	  "prefix": "changeslaveattackhumpowerrate",
+	  "body": [
+		"changeslaveattackhumpowerrate(play, petName, pro)"
+	  ],
+	  "description": "调整宝宝攻击人物的威力倍率 - play: 玩家对象 - petName: 宝宝名称(带数字和不带数字都可以) - pro: 攻击人物威力倍率(威力倍数为0时不攻击人物, 110=攻击人物倍数1.1倍)"
+	},
+	"创建文本文件": {
+	  "prefix": "createfile",
+	  "body": [
+		"createfile(path)"
+	  ],
+	  "description": "创建文本文件 - path: 文件路径"
+	},
+	"写入指定文本文件": {
+	  "prefix": "addtextlist",
+	  "body": [
+		"addtextlist(path, str, line)"
+	  ],
+	  "description": "写入指定文本文件 - path: 文件路径 - str: 写入文本 - line: 写入行数(0~65535)"
+	},
+	"获取文本文件指定行的字符串": {
+	  "prefix": "getrandomtext",
+	  "body": [
+		"getrandomtext(path, line)"
+	  ],
+	  "description": "获取文本文件指定行的字符串 - path: 文件路径 - line: 指定行(0~1000)"
+	},
+	"获取文本文件指定行的内容[根据符号分割]": {
+	  "prefix": "getliststringex",
+	  "body": [
+		"getliststringex(path, line, symbol)"
+	  ],
+	  "description": "获取文本文件指定行的内容[根据符号分割] - path: 文件路径 - line: 指定行 - symbol: 符号"
+	},
+	"取字符串在列表中的下标": {
+	  "prefix": "getstringpos",
+	  "body": [
+		"getstringpos(path, str)"
+	  ],
+	  "description": "取字符串在列表中的下标 - path: 文件路径 - str: 字符串"
+	},
+	"删除文本文件的内容": {
+	  "prefix": "deltextlist",
+	  "body": [
+		"deltextlist(path, line, model)"
+	  ],
+	  "description": "删除文本文件的内容 - path: 文件路径 - line: 指定行 - model: 删除模式(0=删除行, 1=清空行, 2=删除随机行(参数2失效))"
+	},
+	"清除列表内容": {
+	  "prefix": "clearnamelist",
+	  "body": [
+		"clearnamelist(path)"
+	  ],
+	  "description": "清除列表内容 - path: 文件路径"
+	},
+	"检查字符串是否在指定文件中": {
+	  "prefix": "checktextlist",
+	  "body": [
+		"checktextlist(path, str)"
+	  ],
+	  "description": "检查字符串是否在指定文件中 - path: 文件路径 - str: 字符串"
+	},
+	"检查字符串是否在指定文件中": {
+	  "prefix": "checkcontainstextlist",
+	  "body": [
+		"checkcontainstextlist(path, str, model)"
+	  ],
+	  "description": "检查字符串是否在指定文件中 - path: 文件路径 - str: 字符串 - model: 检测模式(0=列表中,是否包含被检测的字符, 1=被检测的字符是否包含列表中的某一行内容)"
+	},
+	"通区创建/删除文本": {
+	  "prefix": "tongfile",
+	  "body": [
+		"tongfile(model, fileName)"
+	  ],
+	  "description": "通区创建/删除文本 - model: 0=创建文件, 1=删除文件 - fileName: 文件名称"
+	},
+	"通区同步文本": {
+	  "prefix": "updatetongfile",
+	  "body": [
+		"updatetongfile(fileName)"
+	  ],
+	  "description": "通区同步文本 - fileName: 文件名称"
+	},
+	"更改文件内容": {
+	  "prefix": "changetongfile",
+	  "body": [
+		"changetongfile(path, str, line, model)"
+	  ],
+	  "description": "更改文件内容 - path: 文本路径 - str: 内容(最大64中文字符) - line: 指定操作行 - model: 0=文件尾追加内容(快), 1 =插入内容到指定行, 2=替换内容到指定行, 3=删除指定行内容, 4=清空整个文件内容"
+	},
+	"通区变量同步": {
+	  "prefix": "updatetongvar",
+	  "body": [
+		"updatetongvar(varName)"
+	  ],
+	  "description": "通区变量同步 - varName: 全局变量名"
+	},
+	"主区执行,增加创建文件": {
+	  "prefix": "maintongfile",
+	  "body": [
+		"maintongfile(varName, model, path)"
+	  ],
+	  "description": "主区执行,增加创建文件 - varName: 区服ID - model: 0=创建文件, 1=删除文件 - path: 文件路径"
+	},
+	"写入指定 区服 配置": {
+	  "prefix": "writetongkey",
+	  "body": [
+		"writetongkey(serverID, path, key, value)"
+	  ],
+	  "description": "写入指定 区服 配置 - serverID: 区服ID - path: 文件路径 - key: 字段 - value: 值"
+	},
+	"读取指定 区服 配置 读取后由QF触发": {
+	  "prefix": "readtongkey",
+	  "body": [
+		"readtongkey(serverID, path, key, varName)"
+	  ],
+	  "description": "读取指定 区服 配置 读取后由QF触发 - serverID: 区服ID - path: 文件路径 - key: 字段 - varName: 变量"
+	},
+	"执行查询通区主服": {
+	  "prefix": "checktongsvr",
+	  "body": [
+		"checktongsvr(serverID)"
+	  ],
+	  "description": "执行查询通区主服 - serverID: 区服ID"
+	},
+	"同步文件 将本地文件路径同步到服务器路径": {
+	  "prefix": "updatemaintongfile",
+	  "body": [
+		"updatemaintongfile(serverID, path)"
+	  ],
+	  "description": "同步文件 将本地文件路径同步到服务器路径 - serverID: 区服ID - path: 文件路径"
+	},
+	"同步文件 将本地文件路径同步到服务器路径": {
+	  "prefix": "updatemaintongfile",
+	  "body": [
+		"updatemaintongfile(serverID, filePath, path)"
+	  ],
+	  "description": "同步文件 将本地文件路径同步到服务器路径 - serverID: 区服ID - filePath: 服务器文件路径 - path: 本地文件路径"
+	},
+	"拉取文件(带主区命令)": {
+	  "prefix": "getmaintongfile",
+	  "body": [
+		"getmaintongfile(serverID, filePath, path)"
+	  ],
+	  "description": "拉取文件(带主区命令) - serverID: 区服ID - filePath: 本地文件路径 - path: 远程服务器路径"
+	},
+	"立即推送前端变量": {
+	  "prefix": "sendredvartoclient",
+	  "body": [
+		"sendredvartoclient(play)"
+	  ],
+	  "description": "立即推送前端变量 - play: 玩家对象"
+	},
+	"获取字符串属性": {
+	  "prefix": "getattlist",
+	  "body": [
+		"getattlist(play, attridx)"
+	  ],
+	  "description": "获取字符串属性 - play: 玩家对象 - attridx: 自定义属性组名称"
+	},
+	"根据物品获取Json2": {
+	  "prefix": "getitemjsonex",
+	  "body": [
+		"getitemjsonex(play)"
+	  ],
+	  "description": "根据物品获取Json2 - play: 玩家对象"
+	},
+	"调整人物的当前内力值": {
+	  "prefix": "addinternalforce",
+	  "body": [
+		"addinternalforce(play, sFlag, value, model)"
+	  ],
+	  "description": "调整人物的当前内力值 - play: 玩家对象 - sFlag: 操作符(=,+,-) - value: 内力值 - model: 计算方式(0=点数, 1=万分比)"
+	},
+	"修改角色外观(武器、衣服、特效)": {
+	  "prefix": "setfeature",
+	  "body": [
+		"setfeature(play, type, shape, time, param1, param2)"
+	  ],
+	  "description": "修改角色外观(武器、衣服、特效) - play: 玩家对象 - type: 0=衣服;1=武器;2=衣服特效;3武器特效;4=盾牌;5=盾牌特效 - shape: 外观的shape(角色模型ID),-1表示清除 - time: 时间 (秒) - param1: 仅在参数1位置为0时有效(0=覆盖时装外观, 1=时装外观优先) - param2: 仅在参数1位置为0时有效(0-斗笠、头发不变, 1-隐藏斗笠, 2-隐藏头发, 3-隐藏斗笠和头发 4-隐藏盾牌和盾牌特效)"
+	},
+	"百分比修改速度": {
+	  "prefix": "changespeedex",
+	  "body": [
+		"changespeedex(play, model, value, time)"
+	  ],
+	  "description": "百分比修改速度 - play: 玩家对象 - model: 计算方式(1=移动速度, 2=攻击速度, 3=魔法速度) - value: 速度值(0=原速度(大于0=加速 -=减速)) - time: 有效时间秒(为空=表示不限制时间,最大值65535)"
+	},
+	"改变技能特效": {
+	  "prefix": "setmagicskillefft",
+	  "body": [
+		"setmagicskillefft(play, skillName, effectID, effectID2)"
+	  ],
+	  "description": "改变技能特效 - play: 玩家对象 - skillName: 技能名称 - effectID: 特效id,=0为关闭(cfg_skill_present.xls表id) - effectID2: 持续性ID(魔法盾BUFF表id/火墙/群体雷电术/其他的技能无效)"
+	},
+	"获取当前虚拟机id[npcid]": {
+	  "prefix": "getsysindex",
+	  "body": [
+		"getsysindex()"
+	  ],
+	  "description": "获取当前虚拟机id[npcid] - result: npcID（NPC配置表中的ID）(特殊npcid:QF=999999999,QM=999999996,LuaCond=999999995,LuaFunc=999999994)"
+	},
+	"日志上报接口": {
+	  "prefix": "senddiymsg",
+	  "body": [
+		"senddiymsg(play, jsonStr)"
+	  ],
+	  "description": "日志上报接口 - play: 玩家对象 - jsonStr: 日志json"
+	},
+	"设置杀怪内功经验倍数": {
+	  "prefix": "killpulseexprate",
+	  "body": [
+		"killpulseexprate(play, pro, time)"
+	  ],
+	  "description": "设置杀怪内功经验倍数 - play: 玩家对象 - pro: 倍率(倍数除以100为真正的倍率(200为2倍经验，150为1.5倍)) - time: 有效时间(秒)"
+	},
+	"设置地图的杀怪内功经验倍数": {
+	  "prefix": "plusemapkillmonexprate",
+	  "body": [
+		"plusemapkillmonexprate(play, mapid, pro)"
+	  ],
+	  "description": "设置地图的杀怪内功经验倍数 - play: 玩家对象 - mapid: 地图id(\"*\"代表所有地图) - pro: 倍率(倍数除以100为真正的倍率(200为2倍经验，150为1.5倍))"
+	},
+	"调整人物转生属性点": {
+	  "prefix": "bonuspoint",
+	  "body": [
+		"bonuspoint(play, sFlag, value)"
+	  ],
+	  "description": "调整人物转生属性点 - play: 玩家对象 - sFlag: 操作符(=,+) - value: 点数(0-1000)"
+	},
+	"获取人物转生属性点": {
+	  "prefix": "getbonuspoint",
+	  "body": [
+		"getbonuspoint(play)"
+	  ],
+	  "description": "获取人物转生属性点 - play: 玩家对象 - result: 属性点数"
+	},
+	"召唤宝宝": {
+	  "prefix": "recallmobex",
+	  "body": [
+		  "recallmobex(actor, name, x, y, level, count, time, color, ignore, nolevelup, hide, inherit, hp, buff)"
+	  ],
+	  "description": "召唤宝宝 - actor: 玩家对象 - name: 宝宝名称 - x: 宝宝当前地图出生点X - y: 宝宝当前地图出生点Y - level: 宝宝等级 - count: 数量 - time: 叛变时间 - color: 是否自动变色 - ignore: 检测时不计算该宝宝数量 - nolevelup: 宝宝不升级 - hide: 隐藏主人名 - inherit: 继承人物伤害百分比 - hp: 宝宝血量数值 - buff: BUFF ID"
+	},
+	"读取配置文件": {
+		"prefix": "readexcel",
+		"body": [
+			"readexcel(readPath)"
+		],
+		"description": "读取配置文件 - readPath: 配置文件路径"
+	},
+	"检查玩家物品": {
+		"prefix": "checkitems",
+		"body": [
+			"checkitems(actor, item_str, is_id, is_bind)"
+		],
+		"description": "检查玩家物品 - actor: 玩家对象 - item_str: 物品名称#物品数量&物品名称#物品数量 - is_id: 参数1中的物品名称是ID还是道具名称 - is_bind: 0/1/2（0=不检测 1.非绑定 2.绑定）"
+	},
+	"消耗玩家物品": {
+		"prefix": "takes",
+		"body": [
+			"takes(actor, item_str, model, is_bind)"
+		],
+		"description": "消耗玩家物品 - actor: 玩家对象 - item_str: 物品名称#物品数量&物品名称#物品数量 - model: 参数1中的物品名称是ID还是道具名称 - is_bind: 0/1/2（0=不检测 1.非绑定 2.绑定）"
+	},
+	"扣除角色穿戴的装备": {
+		"prefix": "takew",
+		"body": [
+			"takew(actor, itemName, num)"
+		],
+		"description": "扣除角色穿戴的装备 - actor: 玩家对象 - itemName: 装备名称 - num: 扣除物品数量"
+	},
+	"获取人物所有称号": {
+		"prefix": "newgettitlelist",
+		"body": [
+			"newgettitlelist(play)"
+		],
+		"description": "获取人物所有称号 - play: 玩家对象 - result: 返回称号列表"
+	},
+	"增加回收组别": {
+		"prefix": "addrecyclingtype",
+		"body": [
+			"addrecyclingtype(actor, recyclingType)"
+		],
+		"description": "增加回收组别 - actor: 玩家对象 - recyclingType: 回收组别，对应表中group字段(支持多类别配置用“;”分割)"
+	},
+	"删除回收组别": {
+		"prefix": "delrecyclingtype",
+		"body": [
+			"delrecyclingtype(actor, idx)"
+		],
+		"description": "删除回收组别 - actor: 玩家对象 - idx: 回收组别索引，-1表示清空回收组别"
+	},
+	"执行回收": {
+		"prefix": "execrecycling",
+		"body": [
+			"execrecycling(actor)"
+		],
+		"description": "执行回收 - actor: 玩家对象"
+	},
+	"执行自动回收": {
+		"prefix": "autorecycling",
+		"body": [
+			"autorecycling(actor, interval, max_bag_space)"
+		],
+		"description": "执行自动回收 - actor: 玩家对象 - interval: 检测间隔时间（单位：秒） - max_bag_space: 背包最大空间（单位：格子）"
+	},
+	"怪物寻路": {
+		"prefix": "mission",
+		"body": [
+			"mission(mapID, x, y, mob, moby, count, range, mobName, target, country, attackSelfPlayer, attackPVP, mobNameColor, disableSelfPlayerAttack)"
+		],
+		"description": "怪物寻路 - mapID: 地图id - x: x坐标串联 - y: y坐标串联 - mob: 刷怪坐标x - moby: 刷怪坐标y - count: 数量 - range: 范围 - mobName: 怪物名字 - target: 目标 - country: 国家 - attackSelfPlayer: 是否攻击本国玩家(0,1) - attackPVP: 不同国家怪物是否PK(0,1) - mobNameColor: 怪物名字颜色 - disableSelfPlayerAttack: 是否禁止本国玩家攻击(0,1)"
+	},
+	"更新OK框物品": {
+		"prefix": "updateboxitem",
+		"body": [
+			"updateboxitem(actor, boxID)"
+		],
+		"description": "更新OK框物品 - actor: 玩家对象 - boxID: OK框编号"
+	},
+	"拿物品(拓展)": {
+		"prefix": "takeitemex",
+		"body": [
+			"takeitemex(play, itemName, itemNum, bind, desc)"
+		],
+		"description": "拿物品(拓展) - play: 玩家对象 - itemName: 物品名称 - itemNum: 数量 - bind: 0=忽略, 1=扣除非绑定物品, 2=扣除绑定物品 - desc: 描述"
+	},
+	"判断绑定状态": {
+		"prefix": "checkitemstate",
+		"body": [
+			"checkitemstate(item, bind)"
+		],
+		"description": "判断绑定状态 - item: 物品对象 - bind: 绑定类型(0-8)"
+	},
+	"设置装备部位属性加成(万分比)": {
+		"prefix": "setequipaddvalue",
+		"body": [
+			"setequipaddvalue(play, where, sFlag, pro)"
+		],
+		"description": "设置装备部位属性加成(万分比) - play: 玩家对象 - where: 装备部位 - sFlag: 操作符(=,+,-) - pro: 倍数(万分比)"
+	},
+	"获取装备部位属性加成(万分比)": {
+		"prefix": "getequipaddvalue",
+		"body": [
+			"getequipaddvalue(play, where)"
+		],
+		"description": "获取装备部位属性加成(万分比) - play: 玩家对象 - where: 装备部位"
+	},
+	"判断地图timer是否存在": {
+		"prefix": "hasenvirtimer",
+		"body": [
+			"hasenvirtimer(mapID, timerid)"
+		],
+		"description": "判断地图timer是否存在 - mapID: 地图id - timerid: 计时器id"
+	},
+	"判断玩家timer是否存在": {
+		"prefix": "hastimer",
+		"body": [
+			"hastimer(actor, timerid)"
+		],
+		"description": "判断玩家timer是否存在 - actor: 玩家对象 - timerid: 计时器id"
+	},
+	"判断全局定时器是否存在": {
+		"prefix": "hastimerex",
+		"body": [
+			"hastimerex(timerid)"
+		],
+		"description": "判断全局定时器是否存在 - timerid: 计时器id"
+	},
+	"改变称号时间": {
+		"prefix": "changetitletime",
+		"body": [
+			"changetitletime(actor, titleName, operation, cour)"
+		],
+		"description": "改变称号时间 - actor: 玩家对象 - titleName: 称号名称 - operation: 操作符（+,-,=) - cour: 时间(+,-传入操作时间(秒), =传入时间戳)"
+	},
+	"改变行会名称": {
+		"prefix": "changeguildname",
+		"body": [
+			"changeguildname(actor, guildName, newGuildName)"
+		],
+		"description": "改变行会名称 - actor: 玩家对象 - guildName: 需要改名的行会名 - newGuildName: 新的行会名字"
+	},
+	"获取IP地址下所有的在线角色名称列表": {
+		"prefix": "getplaylistbyip",
+		"body": [
+			"getplaylistbyip(IPAddress, getAllPlayers)"
+		],
+		"description": "获取IP地址下所有的在线角色名称列表 - IPAddress: IP地址 - getAllPlayers: 是否获取全部玩家列表0/1(默认限制返回200个)"
+	},
+	"重置技能冷却时间": {
+		"prefix": "skillrestcd",
+		"body": [
+			"skillrestcd(actor, skillName)"
+		],
+		"description": "重置技能冷却时间 - actor: 玩家对象 - skillName: 技能名称"
+	},
+	"重置怪物生成计时器": {
+		"prefix": "resetmongentick",
+		"body": [
+			"resetmongentick(mapID,monPosX,monPosY,monName)"
+		],
+		"description": "重置怪物生成计时器 - mapID: 地图ID - monPosX: 怪物X坐标 - monPosY: 怪物Y坐标 - monName: 怪物名称"
+	},
+	"发送登陆信息[反外挂]": {
+		"prefix": "sendloginmsg",
+		"body": [
+			"sendloginmsg(userID)"
+		],
+		"description": "发送登陆信息[反外挂] - userID: 玩家唯一ID"
+	},
+	"检测登陆信息[反外挂]": {
+		"prefix": "logincheckent",
+		"body": [
+			"logincheckent(userID)"
+		],
+		"description": "检测登陆信息[反外挂] - userID: 玩家唯一ID"
+	},
+	"增加天气": {
+		"prefix": "setweathereffect",
+		"body": [
+			"setweathereffect(mapID,model,time)"
+		],
+		"description": "增加天气 - mapID: 地图ID - model: 天气效果(1=黄沙效果,2=花瓣效果,3=下雪效果) - time: 有效时间(秒)"
+	},
+	"删除天气": {
+		"prefix": "delweathereffect",
+		"body": [
+			"delweathereffect(mapID,model)"
+		],
+		"description": "删除天气 - mapID: 地图ID - model: 天气效果(0=关闭所有效果,1=黄沙效果,2=花瓣效果,3=下雪效果)"
+	},
+	"开启宝箱": {
+		"prefix": "opendragonbox",
+		"body": [
+			"opendragonbox(actor,boxidx,num)"
+		],
+		"description": "开启宝箱 - actor: 玩家对象 - boxidx: 宝箱ID - num: 次数(不读数据表次数,只认这里的次数)"
+	},
+	"雇佣沙巴克弓箭手/卫士": {
+		"prefix": "castlearchergen",
+		"body": [
+			"castlearchergen(monID, monType)"
+		],
+		"description": "雇佣沙巴克弓箭手/卫士 - monID: 弓箭手/卫士ID - monType: 类型(0/nil=弓箭手, 1=卫士)"
+	},
+	"检测身上佩戴的装备": {
+		"prefix": "checkitemw",
+		"body": [
+			"checkitemw(actor, item_name)"
+		],
+		"description": "检测身上佩戴的装备 - actor: 玩家对象 - item_name: 装备名称"
+	},
+	"设置等级锁": {
+		"prefix": "setlocklevel",
+		"body": [
+			"setlocklevel(actor, itype, level)"
+		],
+		"description": "设置等级锁 - actor: 玩家对象 - itype: 0:解除锁定, 1锁定到达最大等级时并且不获取怪物经验, 2:锁定到达最大等级时累积经验(int64) - level: 锁住最大等级"
+	},
+	"复位属性点数": {
+		"prefix": "restbonuspoint",
+		"body": [
+			"restbonuspoint(actor)"
+		],
+		"description": "复位属性点数 - actor: 玩家对象"
+	},
+	"批量给予物品": {
+		"prefix": "gives",
+		"body": [
+			"gives(actor, itemStr, desc)"
+		],
+		"description": "批量给予物品 - actor: 玩家对象 - itemStr: 物品参数(物品名称#数量#绑定状态&物品名称#数量#绑定状态) - desc: 描述"
+	},
+	"返回前端面板消息[合成系统]": {
+		"prefix": "sendactionofjson",
+		"body": [
+			"sendactionofjson(actor, idx, json)"
+		],
+		"description": "返回前端面板消息[合成系统] - actor: 玩家对象 - idx: 合成表idx - json: json信息"
+	},
+	"设置人物照亮范围（光照）": {
+		"prefix": "setcandlevalue",
+		"body": [
+			"setcandlevalue(actor, value)"
+		],
+		"description": "设置人物照亮范围（光照） - actor: 玩家对象 - value: 人物照亮范围值(-1=按读取装备的光照值)"
+	},
+	"指定怪物的爆出": {
+		"prefix": "monitemsex",
+		"body": [
+			"monitemsex(actor, monItem, value, delayTime)"
+		],
+		"description": "指定怪物的爆出 - actor: 玩家对象 - monItem: 怪物名称 - value: 可爆出次数(最大多爆20次) - delayTime: 延迟毫秒数"
+	},
+	"获取英雄模式": {
+		"prefix": "getherosta",
+		"body": [
+			"getherosta(actor)"
+		],
+		"description": "获取英雄模式 - actor: 玩家对象"
+	},
+	"设置英雄模式": {
+		"prefix": "setherosta",
+		"body": [
+			"setherosta(actor, model)"
+		],
+		"description": "设置英雄模式 - actor: 玩家对象 - model: 英雄模式(0=攻击, 1=跟随, 2= 休息)"
+	},
+	"英雄传送到主体身边": {
+		"prefix": "herofollow",
+		"body": [
+			"herofollow(actor)"
+		],
+		"description": "英雄传送到主体身边 - actor: 玩家对象"
+	},
+	"存储物品str变量[拓展]": {
+		"prefix": "setitemparam",
+		"body": [
+			"setitemparam(actor, where, idx, value, itemobj)"
+		],
+		"description": "存储物品str变量[拓展] - actor: 玩家对象; where: 装备位置(-2则传入物品对象); idx: 变量位置(1-20); value: 变量值; itemobj: 物品对象(参数2传入-2时有效)"
+	},
+	"获取物品str变量[拓展]": {
+		"prefix": "getitemparam",
+		"body": [
+			"local result = getitemparam(actor, where, idx, itemobj)"
+		],
+		"description": "获取物品str变量[拓展] - actor: 玩家对象; where: 装备位置(-2则传入物品对象); idx: 变量位置(1-20); itemobj: 物品对象(参数2传入-2时有效); result: 变量值"
+	},
+	"存储物品int变量[拓展]": {
+		"prefix": "setitemintparam",
+		"body": [
+			"setitemintparam(actor, where, idx, value, itemobj)"
+		],
+		"description": "存储物品int变量[拓展] - actor: 玩家对象; where: 装备位置(-2则传入物品对象); idx: 变量位置(1-50); value: 变量值(Int64); itemobj: 物品对象(参数2传入-2时有效)"
+	},
+	"获取物品int变量[拓展]": {
+		"prefix": "getitemintparam",
+		"body": [
+			"local result = getitemintparam(actor, where, idx, itemobj)"
+		],
+		"description": "获取物品int变量[拓展] - actor: 玩家对象; where: 装备位置(-2则传入物品对象); idx: 变量位置(1-50); itemobj: 物品对象(参数2传入-2时有效); result: 变量值"
+	},
+	"更新物品变量到数据库[拓展]": {
+		"prefix": "updatecustitemparam",
+		"body": [
+			"updatecustitemparam(actor, where, itemobj)"
+		],
+		"description": "更新物品变量到数据库[拓展] - actor: 玩家对象; where: 装备位置(-2则传入物品对象); itemobj: 物品对象(参数2传入-2时有效)"
+	},
+	"设置对象int变量": {
+		"prefix": "setobjintvar",
+		"body": [
+			"setobjintvar(obj, idx, value)"
+		],
+		"description": "设置对象int变量 - obj: 怪物/NPC对象; idx: 变量位置(0-4); value: 变量值"
+	},
+	"获取对象int变量": {
+		"prefix": "getobjintvar",
+		"body": [
+			"local result = getobjintvar(obj, idx)"
+		],
+		"description": "获取对象int变量 - obj: 怪物/NPC对象; idx: 变量位置(0-4); result: 变量值"
+	},
+	"设置对象str变量": {
+		"prefix": "setobjstrvar",
+		"body": [
+			"setobjstrvar(obj, idx, value)"
+		],
+		"description": "设置对象str变量 - obj: 怪物/NPC对象; idx: 变量位置(0-4); value: 变量值"
+	},
+	"获取对象str变量": {
+		"prefix": "getobjstrvar",
+		"body": [
+			"local result = getobjstrvar(obj, idx)"
+		],
+		"description": "获取对象str变量 - obj: 怪物/NPC对象; idx: 变量位置(0-4); result: 变量值"
+	},
+	"设置地图int变量": {
+		"prefix": "setenvirintvar",
+		"body": [
+			"setenvirintvar(mapid, idx, value)"
+		],
+		"description": "设置地图int变量 - mapid: 地图编号; idx: 变量位置(0-49); value: 变量值"
+	},
+	"获取地图int变量": {
+		"prefix": "getenvirintvar",
+		"body": [
+			"local result = getenvirintvar(mapid, idx)"
+		],
+		"description": "获取地图int变量 - mapid: 地图编号; idx: 变量位置(0-49); result: 变量值"
+	},
+	"设置地图str变量": {
+		"prefix": "setenvirstrvar",
+		"body": [
+			"setenvirstrvar(mapid, idx, value)"
+		],
+		"description": "设置地图str变量 - mapid: 地图编号; idx: 变量位置(0-49); value: 变量值"
+	},
+	"获取地图str变量": {
+		"prefix": "getenvirstrvar",
+		"body": [
+			"local result = getenvirstrvar(mapid, idx)"
+		],
+		"description": "获取地图str变量 - mapid: 地图编号; idx: 变量位置(0-49); result: 变量值"
+	},
+	"设置buff堆叠层数": {
+		"prefix": "buffstack",
+		"body": [
+			"buffstack(actor, buffid, opt, stack, itimer)"
+		],
+		"description": "设置buff堆叠层数 - actor: 对象; buffid: buffid; opt: 操作符 '+' '-' '='; stack: buff层数 不可超出表中最大层数; itimer: 是否重置buff 时间"
+	},
+	"在地图上生成掉落物品": {
+		"prefix": "gendropitem",
+		"body": [
+			"local result = gendropitem(mapid, actor, X, Y, json, data)"
+		],
+		"description": "在地图上生成掉落物品 - mapid: 地图id; actor: 归属对象 填nil则无归属 且拾取cd时间会被设置为0; X: x坐标; Y: y坐标; json: 掉落json; data: 物品来源(参考设置物品来源); result: 物品makeindex列表"
+	},
+	"对目标释放技能": {
+		"prefix": "releasemagic_target",
+		"body": [
+			"releasemagic_target(actor, skillID, sType, sLevel, target, data)"
+		],
+		"description": "对目标释放技能 - actor: 玩家对象; skillID: 技能ID; sType: 类型 1-普通技能 2-强化技能; sLevel: 技能等级; target: 目标对象; data: 是否显示施法动作 0-不显示 1-显示"
+	},
+	"对坐标释放技能": {
+		"prefix": "releasemagic_pos",
+		"body": [
+			"releasemagic_pos(actor, skillID, sType, sLevel, X, Y, data)"
+		],
+		"description": "对坐标释放技能 - actor: 玩家对象; skillID: 技能ID; sType: 类型 1-普通技能 2-强化技能; sLevel: 技能等级; X: 目标点X坐标; Y: 目标点Y坐标; data: 是否显示施法动作 0-不显示 1-显示"
+	},
+	"让怪物释放自定义技能": {
+		"prefix": "mon_docustommagic",
+		"body": [
+			"mon_docustommagic(mon, skillID, X, Y, target)"
+		],
+		"description": "让怪物释放自定义技能 - mon: 怪物对象; skillID: 自定义技能id; X: 目标点X坐标; Y: 目标点Y坐标; target: 目标对象"
+	},
+	"添加自定义怪物攻击表现": {
+		"prefix": "addmonattack",
+		"body": [
+			"addmonattack(mon, skillID)"
+		],
+		"description": "添加自定义怪物攻击表现 - mon: 怪物对象; skillID: 攻击表现id,对应cfg_monattack表"
+	},
+	"获取自定义排行榜缓存数据": {
+		"prefix": "getsortdata",
+		"body": [
+			"local rank_list = json2tbl(getsortdata(rankidx))"
+		],
+		"description": "获取自定义排行榜缓存数据 - rankidx: 自定义排行榜页签; 返回rank_list: 排行榜数据(json格式)"
+	},
+	"添加机器人事件": {
+		"prefix": "addscheduled",
+		"body": [
+			"addscheduled(scheduled_name, executeMethod, time, funcName)"
+		],
+		"description": "添加机器人事件 - scheduled_name: 机器人名称; executeMethod: 执行方式; time: 时间参数; funcName: 跳转标签"
+	},
+	"删除机器人事件": {
+		"prefix": "delscheduled",
+		"body": [
+			"delscheduled(scheduled_name)"
+		],
+		"description": "删除机器人事件 - scheduled_name: 机器人名称"
+	},
+	"判断机器人事件": {
+		"prefix": "hasscheduled",
+		"body": [
+			"local has_event = hasscheduled(scheduled_name)"
+		],
+		"description": "判断机器人事件 - scheduled_name: 机器人名称; 返回has_event: true=有事件, false=无事件"
+	},
+	"添加系统延时回调": {
+		"prefix": "grobaldelaygoto",
+		"body": [
+			"grobaldelaygoto(time, funcName)"
+		],
+		"description": "添加系统延时回调 - time: 时间(毫秒); funcName: 触发函数"
+	},
+	"删除系统延时回调": {
+		"prefix": "grobalcleardelaygoto",
+		"body": [
+			"grobalcleardelaygoto(funcName, value)"
+		],
+		"description": "删除系统延时回调 - funcName: 需要删除的延时函数,不填为清除全部; value: 是否忽视标签参数,0=不忽视,要完整填写添加时的参数,1=忽视,只判断函数名"
+	},
+	"改变宠物外观": {
+		"prefix": "setpetappr",
+		"body": [
+			"setpetappr(actor, petIdx, appr)"
+		],
+		"description": "改变宠物外观 - actor: 玩家对象; petIdx: 宠物序号,X表示当前宠物; appr: 怪物外观ID(怪物Appr),0=还原"
+	},
+	"清掉地图某范围的怪物": {
+		"prefix": "killmapmon",
+		"body": [
+			"killmapmon(mapID, x, y, range, monName, isDrop, isClear)"
+		],
+		"description": "清掉地图某范围的怪物 - mapID: 地图ID; x: 坐标X; y: 坐标Y; range: 范围; monName: 怪物名,*表示所有怪物; isDrop: 是否爆物品,0=不爆,1=爆; isClear: 是否清尸体,0=不清,1=清"
+	},
+	"接口获取角色所有技能": {
+        "prefix": "getallskills",
+        "body": [
+            "getallskills(actor)"
+        ],
+        "description": "接口获取角色所有技能 - actor: 玩家对象; result: 技能列表"
+    },
+    "接口发起行会战": {
+        "prefix": "setguildwar",
+        "body": [
+            "setguildwar(guildName1, guildName2, time)"
+        ],
+        "description": "接口发起行会战 - guildName1: 宣战行会名字; guildName2: 敌对行会名字; time: 时间(分); result: 是否发起成功"
+    },
+    "判断行会之间是否宣战": {
+        "prefix": "iswarguild",
+        "body": [
+            "iswarguild(guildName1, guildName2)"
+        ],
+        "description": "判断行会之间是否宣战 - guildName1: 行会名字/行会对象; guildName2: 行会名字/行会对象; result: 是否宣战"
+    },
+    "判断行会之间是否结盟": {
+        "prefix": "isallyguild",
+        "body": [
+            "isallyguild(guildName1, guildName2)"
+        ],
+        "description": "判断行会之间是否结盟 - guildName1: 行会名字/行会对象; guildName2: 行会名字/行会对象; result: 是否宣战"
+    },
+    "判断国家之间是否宣战": {
+        "prefix": "iswarnation",
+        "body": [
+            "iswarnation(nationIDX1, nationIDX2)"
+        ],
+        "description": "判断国家之间是否宣战 - nationIDX1: 国家ID; nationIDX2: 国家ID; result: 是否宣战"
+    },
+    "国家宣战": {
+        "prefix": "setnationwar",
+        "body": [
+            "setnationwar(nationIDX1, nationIDX2)"
+        ],
+        "description": "国家宣战 - nationIDX1: 国家ID; nationIDX2: 国家ID; result: 是否宣战成功"
+    },
+    "获取国家人数": {
+        "prefix": "getnationmembercount",
+        "body": [
+            "getnationmembercount(nationIDX)"
+        ],
+        "description": "获取国家人数 - nationIDX: 国家ID; result: 国家人数"
+    },
+    "设置阵营ID": {
+        "prefix": "setcamp",
+        "body": [
+            "setcamp(actor, campid)"
+        ],
+        "description": "设置阵营ID - actor: 玩家对象; campid: 阵营id"
+    },
+    "获取阵营ID": {
+        "prefix": "getcamp",
+        "body": [
+            "getcamp(actor)"
+        ],
+        "description": "获取阵营ID - actor: 玩家对象; result: 阵营id"
+    },
+    "接口删除Envir目录下的指定文件": {
+        "prefix": "delfile",
+        "body": [
+            "delfile(path)"
+        ],
+        "description": "接口删除Envir目录下的指定文件 - path: 文件路径; result: 是否删除成功"
+    },
+}

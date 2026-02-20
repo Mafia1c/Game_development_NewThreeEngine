@@ -1,0 +1,58 @@
+---alg工作台
+---xls转lua table
+---本工具免费 交流QQ群:436063587
+local config = {
+ 
+	[1] = {
+ 		["key_name"]=1,
+		["name"]=[[元神之力·三魂]],
+		["need_item1"]=[[风暴凭证]],
+		["need_item_count1"]=199,
+		["need_item2"]=[[元宝]],
+		["need_item_count2"]=200000,
+		["need_level"]=20,
+		["effect_id"]=14324,
+		["drop_map"]=[[风暴峡谷]],
+		["defense1"]=111,
+		["defense2"]=222,
+		["atk1"]=111,
+		["atk2"]=222,
+		["hp"]=100,
+		["atk_per"]=1, 
+	},
+	[2] = {
+ 		["key_name"]=2,
+		["name"]=[[元神之力·七魄]],
+		["need_item1"]=[[雪原凭证]],
+		["need_item_count1"]=399,
+		["need_item2"]=[[元宝]],
+		["need_item_count2"]=500000,
+		["need_level"]=30,
+		["effect_id"]=14322,
+		["drop_map"]=[[雪原]],
+		["defense1"]=111,
+		["defense2"]=333,
+		["atk1"]=111,
+		["atk2"]=333,
+		["hp"]=200,
+		["atk_per"]=2, 
+	},
+	[3] = {
+ 		["key_name"]=3,
+		["name"]=[[元神之力·三花聚顶]],
+		["need_item1"]=[[蛮荒凭证]],
+		["need_item_count1"]=999,
+		["need_item2"]=[[元宝]],
+		["need_item_count2"]=500000,
+		["need_level"]=40,
+		["effect_id"]=14330,
+		["drop_map"]=[[蛮荒城]],
+		["defense1"]=111,
+		["defense2"]=444,
+		["atk1"]=111,
+		["atk2"]=444,
+		["hp"]=300,
+		["atk_per"]=3, 
+	},  
+}
+ return config;

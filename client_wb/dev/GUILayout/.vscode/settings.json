@@ -1,0 +1,13 @@
+{
+    "Lua.diagnostics.globals": [
+        "cc",
+        "SL",
+        "GUI",
+        "ssr",
+        "SLDefine"
+    ],
+    "files.encoding": "utf8",
+    "Lua.workspace.library": [
+        "C:\\基础lua框架\\Client\\dev\\.vscode\\GUIASL.lua"
+    ]
+}

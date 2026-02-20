@@ -1,0 +1,88 @@
+---alg工作台
+---xls转lua table
+---本工具免费 交流QQ群:436063587
+local config = {
+ 
+	[1] = {
+ 		["key_name"]=1,
+		["name"]=[[天使之翼]],
+		["needitem"]=[[洛克之羽]],
+		["itemnum"]=199,
+		["needmoney"]=[[元宝]],
+		["moneynum"]=20000,
+		["effect"]=12600, 
+	},
+	[2] = {
+ 		["key_name"]=2,
+		["name"]=[[烈焰之翼]],
+		["needitem"]=[[洛克之羽]],
+		["itemnum"]=299,
+		["needmoney"]=[[元宝]],
+		["moneynum"]=20000,
+		["effect"]=12601, 
+	},
+	[3] = {
+ 		["key_name"]=3,
+		["name"]=[[深渊之翼]],
+		["needitem"]=[[洛克之羽]],
+		["itemnum"]=399,
+		["needmoney"]=[[元宝]],
+		["moneynum"]=20000,
+		["effect"]=12602, 
+	},
+	[4] = {
+ 		["key_name"]=4,
+		["name"]=[[地狱之翼]],
+		["needitem"]=[[洛克之羽]],
+		["itemnum"]=499,
+		["needmoney"]=[[元宝]],
+		["moneynum"]=20000,
+		["effect"]=12603, 
+	},
+	[5] = {
+ 		["key_name"]=5,
+		["name"]=[[梦魇之翼]],
+		["needitem"]=[[洛克之羽]],
+		["itemnum"]=599,
+		["needmoney"]=[[元宝]],
+		["moneynum"]=20000,
+		["effect"]=12604, 
+	},
+	[6] = {
+ 		["key_name"]=6,
+		["name"]=[[黑暗之翼]],
+		["needitem"]=[[洛克之羽]],
+		["itemnum"]=699,
+		["needmoney"]=[[元宝]],
+		["moneynum"]=20000,
+		["effect"]=12605, 
+	},
+	[7] = {
+ 		["key_name"]=7,
+		["name"]=[[灵魂之翼]],
+		["needitem"]=[[洛克之羽]],
+		["itemnum"]=799,
+		["needmoney"]=[[元宝]],
+		["moneynum"]=20000,
+		["effect"]=12606, 
+	},
+	[8] = {
+ 		["key_name"]=8,
+		["name"]=[[圣光之翼]],
+		["needitem"]=[[洛克之羽]],
+		["itemnum"]=899,
+		["needmoney"]=[[元宝]],
+		["moneynum"]=20000,
+		["effect"]=12607, 
+	},
+	[9] = {
+ 		["key_name"]=9,
+		["name"]=[[神话之翼]],
+		["needitem"]=[[洛克之羽]],
+		["itemnum"]=999,
+		["needmoney"]=[[元宝]],
+		["moneynum"]=200000,
+		["effect"]=12608, 
+	},  
+}
+ return config;
